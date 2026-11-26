@@ -44,4 +44,4 @@ The final local record is records/w2c-r/final.local.out. Seven exploratory state
 
 ## Research status
 
-The uncut Gaussian open-box certificate, the periodic scalar infima and the pinned SU(2) estimate have distinct domains. The uniform interacting Wilson curvature and the required cut-domain control remain open. See D–E for the quantified premises. The proposed public record is [GITHUB PLACEHOLDER] and [DOI PLACEHOLDER]. The authors’ hosted transcript and public deposit are pending. Full MIT license in LICENSE.
+The uncut Gaussian open-box certificate, the periodic scalar infima and the pinned SU(2) estimate have distinct domains. The uniform interacting Wilson curvature and the required cut-domain control remain open. See D–E for the quantified premises. The public record is https://github.com/teknoquants/W2c-Repo and https://doi.org/10.5281/zenodo.24558116. The authors’ hosted Lean transcript is pending. Full MIT license in LICENSE.
