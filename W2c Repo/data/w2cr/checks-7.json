@@ -1,0 +1,350 @@
+[
+  {
+    "target": "F.1",
+    "check": "character convergence (0.02, 'full')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.02, 'cut')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.05, 'full')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.05, 'cut')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.1, 'full')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.1, 'cut')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.16666666666666666, 'full')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.16666666666666666, 'cut')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.2, 'full')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.2, 'cut')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.5, 'full')"
+  },
+  {
+    "target": "F.1",
+    "check": "character convergence (0.5, 'cut')"
+  },
+  {
+    "target": "F.1",
+    "check": "five-decimal pinned ratio"
+  },
+  {
+    "target": "F.1",
+    "check": "five-decimal pinned ratio"
+  },
+  {
+    "target": "F.1",
+    "check": "five-decimal pinned ratio"
+  },
+  {
+    "target": "F.1",
+    "check": "five-decimal pinned ratio"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.02, 'full')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.02, 'cut')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.05, 'full')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.05, 'cut')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.1, 'full')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.1, 'cut')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.16666666666666666, 'full')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.16666666666666666, 'cut')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.2, 'full')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.2, 'cut')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.5, 'full')"
+  },
+  {
+    "target": "F.2",
+    "check": "SU(3) convergence (0.5, 'cut')"
+  },
+  {
+    "target": "F.2",
+    "check": "fundamental character multiplication by Weyl integration"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.0625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.0625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.03125, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.03125, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.015625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.015625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.015625, 6, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.015625, 6, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.015625, 6, 1023, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'full', 0.015625, 6, 1023, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.0625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.0625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.03125, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.03125, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.015625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.015625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.015625, 6, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.015625, 6, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.015625, 6, 1023, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.05, 'cut', 0.015625, 6, 1023, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.0625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.0625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.03125, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.03125, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.015625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.015625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.015625, 6, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.015625, 6, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.015625, 6, 1023, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'full', 0.015625, 6, 1023, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.0625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.0625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.03125, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.03125, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.015625, 4, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.015625, 4, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.015625, 6, 511, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.015625, 6, 511, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.015625, 6, 1023, 1)"
+  },
+  {
+    "target": "F.3",
+    "check": "sampling against grid (0.16666666666666666, 'cut', 0.015625, 6, 1023, 2)"
+  },
+  {
+    "target": "F.3",
+    "check": "boundary-aligned quadrature"
+  },
+  {
+    "target": "F.3",
+    "check": "boundary-aligned quadrature"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (1, 0.05, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (1, 0.05, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (1, 0.16666666666666666, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (1, 0.16666666666666666, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (2, 0.05, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (2, 0.05, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (2, 0.16666666666666666, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (2, 0.16666666666666666, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (4, 0.05, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (4, 0.05, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (4, 0.16666666666666666, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (4, 0.16666666666666666, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (8, 0.05, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (8, 0.05, 0.125)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (8, 0.16666666666666666, 0.25)"
+  },
+  {
+    "target": "F.4",
+    "check": "reversible strip benchmark (8, 0.16666666666666666, 0.125)"
+  }
+]

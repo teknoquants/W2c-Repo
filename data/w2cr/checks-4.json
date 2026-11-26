@@ -1,0 +1,150 @@
+[
+  {
+    "target": "C.1",
+    "check": "direct edge/square count (2, 2, 2)"
+  },
+  {
+    "target": "C.1",
+    "check": "direct edge/square count (4, 6, 8)"
+  },
+  {
+    "target": "C.1",
+    "check": "direct edge/square count (8, 8, 8)"
+  },
+  {
+    "target": "C.2",
+    "check": "three path frequencies have squared sum below 12"
+  },
+  {
+    "target": "C.3",
+    "check": "original rational certificate endpoints"
+  },
+  {
+    "target": "C.4",
+    "check": "sharpened Schur test and analytic improvement"
+  },
+  {
+    "target": "C.5",
+    "check": "periodic fibre and joint ordering at 4"
+  },
+  {
+    "target": "C.5",
+    "check": "periodic fibre and joint ordering at 8"
+  },
+  {
+    "target": "C.5",
+    "check": "periodic fibre and joint ordering at 16"
+  },
+  {
+    "target": "C.5",
+    "check": "periodic fibre and joint ordering at 32"
+  },
+  {
+    "target": "C.5",
+    "check": "periodic fibre and joint ordering at 64"
+  },
+  {
+    "target": "C.5",
+    "check": "periodic fibre and joint ordering at 128"
+  },
+  {
+    "target": "C.5",
+    "check": "interval covering for fibre"
+  },
+  {
+    "target": "C.5",
+    "check": "interval covering for joint"
+  },
+  {
+    "target": "C.6",
+    "check": "open eigensolver residual 4"
+  },
+  {
+    "target": "C.6",
+    "check": "face mass below uniform edge share 4"
+  },
+  {
+    "target": "C.6",
+    "check": "open eigensolver residual 8"
+  },
+  {
+    "target": "C.6",
+    "check": "face mass below uniform edge share 8"
+  },
+  {
+    "target": "C.6",
+    "check": "open eigensolver residual 16"
+  },
+  {
+    "target": "C.6",
+    "check": "face mass below uniform edge share 16"
+  },
+  {
+    "target": "C.6",
+    "check": "open eigensolver residual 32"
+  },
+  {
+    "target": "C.6",
+    "check": "face mass below uniform edge share 32"
+  },
+  {
+    "target": "B.7",
+    "check": "ratio from two independent numerical constructions"
+  },
+  {
+    "target": "C.7",
+    "check": "all signed grid ties"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.7",
+    "check": "nested-grid minimum"
+  },
+  {
+    "target": "C.8",
+    "check": "dimension-dependent path counts"
+  },
+  {
+    "target": "C.8",
+    "check": "dimension-dependent path counts"
+  },
+  {
+    "target": "C.8",
+    "check": "dimension-dependent path counts"
+  }
+]

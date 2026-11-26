@@ -1,0 +1,70 @@
+{
+  "wilson": [
+    {
+      "N": 2,
+      "t": 0.05,
+      "wilson": 2.495836456883893e-05,
+      "linear_curl_squared": 0,
+      "absolute_cubic_constant": 21.333333333333332
+    },
+    {
+      "N": 2,
+      "t": 0.1,
+      "wilson": 0.00039734131895885483,
+      "linear_curl_squared": 0,
+      "absolute_cubic_constant": 21.333333333333332
+    },
+    {
+      "N": 2,
+      "t": 0.2,
+      "wilson": 0.006231366667812432,
+      "linear_curl_squared": 0,
+      "absolute_cubic_constant": 21.333333333333332
+    },
+    {
+      "N": 3,
+      "t": 0.05,
+      "wilson": 1.6638909712559286e-05,
+      "linear_curl_squared": 0,
+      "absolute_cubic_constant": 21.333333333333332
+    },
+    {
+      "N": 3,
+      "t": 0.1,
+      "wilson": 0.00026489421263923657,
+      "linear_curl_squared": 0,
+      "absolute_cubic_constant": 21.333333333333332
+    },
+    {
+      "N": 3,
+      "t": 0.2,
+      "wilson": 0.004154244445208288,
+      "linear_curl_squared": 0,
+      "absolute_cubic_constant": 21.333333333333332
+    }
+  ],
+  "occupations": {
+    "particle_floor": 1.414213562373095,
+    "witness_residual": 5.232468362392557e-16,
+    "homogeneous": [
+      1.414213562373095,
+      2.82842712474619,
+      4.242640687119285
+    ],
+    "method": "exact floor plus an annihilated eigenmode"
+  },
+  "two_mode": {
+    "first": 1.9999999999999996,
+    "quadratic": [
+      [
+        3.9999999999999987,
+        -1.4142135623730947
+      ],
+      [
+        -1.4142135623730947,
+        3.999999999999999
+      ]
+    ],
+    "minimum": 2.585786437626904
+  }
+}

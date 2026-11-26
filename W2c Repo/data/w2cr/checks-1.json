@@ -1,0 +1,26 @@
+[
+  {
+    "target": "W2",
+    "check": "released contains 9579"
+  },
+  {
+    "target": "W2",
+    "check": "released contains 44 numbered targets"
+  },
+  {
+    "target": "W2",
+    "check": "released contains VALIDATION PASSED"
+  },
+  {
+    "target": "W2",
+    "check": "paper contains 44/44"
+  },
+  {
+    "target": "W2",
+    "check": "paper contains 189/189"
+  },
+  {
+    "target": "W2",
+    "check": "paper contains ALL CHECKS PASSED"
+  }
+]

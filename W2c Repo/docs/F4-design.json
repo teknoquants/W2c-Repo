@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-25",
+  "couplings": [
+    0.05,
+    0.16666666666666666
+  ],
+  "links": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "geometry": "Array of adjacent length-two paths, transverse connectors pinned to identity; every coarse path product I. Shared plaquettes couple neighbouring first links and neighbouring second links. Two transverse faces to the pinned environment per outer direction as specified in the methods.",
+  "comparison": "Use the same generator, trial family and free oscillator normalization at every length; unadjusted overdamped proposal is corrected by Metropolis. Integrated autocorrelation is a sampler diagnostic. Use independent chains and block intervals.",
+  "criterion": "Flag a finite-volume warning if at both couplings the 95% upper endpoint at length 8 is below the lower endpoint at length 1 and central ratios fall at each doubling. Four finite volumes cannot disprove a uniform lower bound. An upper trial alone can support a falsification sequence only with analytic control.",
+  "qualification": "If only a surrogate vacuum or variational projection is available, mark results as model diagnostics; the Wilson-vacuum test stays open."
+}

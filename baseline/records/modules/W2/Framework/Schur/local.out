@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.Framework.schur_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.uniform_score_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_all_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 9f9365fcced2c2747623e4636996f25696466864c5c72d3db13f0bd8e6ab6a49"

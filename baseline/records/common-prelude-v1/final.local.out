@@ -1,0 +1,54 @@
+"4.36.0"
+W2.Common.Clock : Type
+W2.Common.Trajectory : Type
+W2.Common.A (N : ℕ) : ℝ
+W2.Common.weak (xs x : ℝ) : Prop
+W2.Common.fullClock (c : W2.Common.Clock) (x : ℝ) : ℝ
+W2.Common.truncClock (c₁ x : ℝ) : ℝ
+W2.Common.matchedClock.{u_1} {ι : Type u_1} (c : W2.Common.Clock) (speed : ι → ℝ → ℝ → ℝ) (h : ι) (x y z : ℝ) : ℝ
+W2.Common.physicalRatio (c : W2.Common.Clock) (x y z : ℝ) : ℝ
+W2.Common.oneLoopBack (b a : ℝ) (n : ℕ) : ℝ
+W2.Common.driftProduct (b a κ : ℝ) (K : ℕ) : ℝ
+W2.Common.aPlus (a B xs : ℝ) : ℝ
+W2.Common.stepQ (a B xs : ℝ) : ℝ
+W2.Common.clockFloor (s M xs : ℝ) : ℝ
+W2.Common.stepConstant (a B xs s M : ℝ) : ℝ
+W2.Common.matchConstant (a B xs c₁ Mc : ℝ) : ℝ
+W2.Common.blockConstant (C M xs : ℝ) : ℝ
+W2.Common.stepData (a B xs x y : ℝ) : Prop
+W2.Common.hasRemainder (u : W2.Common.Clock) (xs s M : ℝ) : Prop
+W2.Common.p₁ (L : ℕ) : ℝ
+W2.Common.freeClock (L : ℕ) : ℝ
+W2.Common.boxClockSq (L : ℕ) (E₀ Erest Emoving : ℝ) : ℝ
+W2.Common.ClockRegularityHyp (c : W2.Common.Clock) (xs c₁ : ℝ) : Prop
+W2.Common.cubicClockExpansion (c : W2.Common.Clock) (xs c₁ : ℝ) : Prop
+W2.Common.DispersionHyp.{u_1} {ι : Type u_1} (c : W2.Common.Clock) (speed : ι → ℝ → ℝ → ℝ) (xs : ℝ) : Prop
+W2.Common.RunningBoundHyp (x : W2.Common.Trajectory) (J : ℕ) (xs amin : ℝ) : Prop
+W2.Common.finiteVolumeBound (c : W2.Common.Clock) (cL : ℕ → W2.Common.Clock) (xs : ℝ) : Prop
+'W2.Common.Clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.Trajectory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.A' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.fullClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.truncClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.matchedClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.physicalRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.oneLoopBack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.driftProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.aPlus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.stepQ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.clockFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.stepConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.matchConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.blockConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.stepData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.hasRemainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.p₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.freeClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.boxClockSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.ClockRegularityHyp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.cubicClockExpansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.DispersionHyp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.RunningBoundHyp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.finiteVolumeBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet c491b993a51f9683cf51922b8327b2e88b08ea2ce4182d1b492fb04157357a27"

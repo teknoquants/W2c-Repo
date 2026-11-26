@@ -1,0 +1,3 @@
+"4.36.0"
+'W2.Common.A_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet c9a9c629521e5c22384037380b4c7c84e0c49954453be84b5c161616bd632633"

@@ -1,0 +1,666 @@
+[
+  {
+    "id": "A.1",
+    "unit": "A",
+    "name": "The admitted index and its uniform constant",
+    "expected": "Definition",
+    "actual": "Definition",
+    "statement": "Choose one constant before all finite boxes, scales, cutoff values, coarse links, regular conditional laws and test functions.",
+    "equation": "0<x_i=g_i^2\\leq\\tfrac16,\\qquad \\exists c>0\\ \\ \\forall i:\\quad c\\,\\operatorname{Var}_{\\mu_i} f_i\\leq x_i\\,\\mathcal T_i(f_i).",
+    "proof": [
+      "Fix G=SU(N), N≥2, and the isotropic clock. Use connected open rectangular cubical complexes with positive even fine side lengths, all their interior edges and squares, no periodic identification, spacing aᵢ and initial cutoff a₀>0. A coarse edge has spacing 2aᵢ and value U₁U₂. The remaining fields on the fibre are divided by gauge changes equal to the identity at every retained vertex. Specify all fixed exterior links of a pinned comparison.",
+      "For the conditional measure use the Haar disintegration in A.5. For a cut, retain the component or whole region being tested, its Neumann form and its positive conditional mass. An empty cut cannot be normalized. Require a nonconstant test only in a quotient with positive variance in its denominator. Holding N fixed permits dependence on N unless a result explicitly proves independence. Neither the size of the box nor the number of blocking steps can enter a uniform witness. Periodic boxes are comparison experiments."
+    ],
+    "premises": "The geometry and positivity of the cut belong to the admitted class. The Lean record allows the concrete coarse field, version, cut and test space to be supplied by the mathematical model.",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.2",
+    "unit": "A",
+    "name": "The fibre as a compact Riemannian manifold",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "The product blocking map is a smooth submersion. Each paired edge contributes one freely varying group element to its fibre.",
+    "equation": "\\pi^{-1}(W)\\simeq G^{\\#\\mathrm{paths}}\\times G^{\\#\\mathrm{unused}},\\qquad (U_1,U_2)=(V,V^{-1}W).",
+    "proof": [
+      "Assign the first fine link V of each pair arbitrarily and solve uniquely for the second. Unused links are independent parameters. The direct and inverse maps use smooth group operations. The variable W supplies transverse coordinates and makes the differential onto. Compactness follows from the finite product.",
+      "For h(X,Y)=−Tr(XY)/2, left and right translations and inversion preserve h. Along V↦(V,V⁻¹W) the two speeds have equal norm, so the induced metric is 2h on each midpoint factor and h on each unused factor. Translation invariance makes product Haar the normalized volume in these coordinates."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.3",
+    "unit": "A",
+    "name": "Free eliminated gauge action and the dimension of the quotient",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "The based eliminated gauge group acts freely and isometrically; the quotient dimension is an explicit rectangular polynomial.",
+    "equation": "\\dim Q_W=[14abc+3(ab+ac+bc)](N^2-1).",
+    "proof": [
+      "A stabilizer satisfies h_y=Uₑ⁻¹hₓUₑ on every edge. Starting at the retained vertices, where h=1, propagates identity along all paths. The compact free isometric action gives a smooth Riemannian quotient and quotient map a Riemannian submersion. Write V(a,b,c)=(a+1)(b+1)(c+1) and E(a,b,c)=a(b+1)(c+1)+(a+1)b(c+1)+(a+1)(b+1)c. Subtract the coarse edge count and the eliminated vertex count from the fine edge count. Expansion yields the formula. At a=b=c=2 and N=2 it gives 444. All 343 triples with 1≤a,b,c≤7 are checked independently."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.4",
+    "unit": "A",
+    "name": "Ricci curvature and the quotient measure",
+    "expected": "Proved",
+    "actual": "Proved with stated submersion hypotheses",
+    "statement": "The group and midpoint factors have Ricci coefficients N and N/2 in their respective metrics. Quotient curvature also involves horizontal planes and orbit volumes.",
+    "equation": "\\mathrm{Ric}_G=-\\tfrac14 B=N h,\\qquad K_Q=K_P+\\tfrac34\\|[X,Y]^{\\mathrm{vert}}\\|^2.",
+    "proof": [
+      "For a bi-invariant metric the Levi-Civita connection on left-invariant fields is [X,Y]/2. Tracing its curvature gives −B/4. The Killing form is 2NTr(XY). Scaling h by two leaves the Ricci tensor unchanged as a bilinear form and halves its coefficient relative to the metric. O’Neill’s sectional formula applies to horizontal orthonormal lifts. Its horizontal trace omits the mixed horizontal–vertical planes. The pushforward density includes the volume of each orbit.",
+      "Lott’s weighted submersion comparison requires fibre transport to preserve conditional measures up to constants. A general conditional Wilson vacuum needs its own verification of that premise. The group coefficients above are independent of g, whereas D.1 asks for a term of order 1/g². No choice of a fixed Ricci coefficient gives that scaling."
+    ],
+    "premises": "The weighted comparison uses the measure-transport hypothesis in Lott’s theorem. The computed group constants alone are unconditional.",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.5",
+    "unit": "A",
+    "name": "A canonical conditional law and a null-fibre obstruction",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "Disintegration in the midpoint coordinates yields a continuous conditional version. Equivariance alone leaves the value at a single coarse configuration undetermined.",
+    "equation": "\\mu(du\\mid W)=\\frac{\\psi(V,V^{-1}W,U_{\\mathrm{un}})^2\\,dV\\,dU_{\\mathrm{un}}}{\\int\\psi(V,V^{-1}W,U_{\\mathrm{un}})^2\\,dV\\,dU_{\\mathrm{un}}}.",
+    "proof": [
+      "Right invariance factors Haar measure into dV dW for each pair. The positive finite-volume ground state on the compact link manifold gives a strictly positive denominator. Integration against continuous test functions varies continuously in W by compactness, and a change of gauge variables proves equivariance. At a coarse point of zero marginal mass, an almost-everywhere version can be modified. At W=I choose two different eliminated gauge orbits, with equal masses on their invariant orbit measures, using conjugation-invariant supports when residual global symmetry is imposed. One explicit choice uses identity links and a nontrivial pinned plaquette trace, averaged under global conjugation. A smooth invariant cutoff of that trace can equal −1 near one support and +1 near the other. The tangential gradient vanishes on the supports and the variance is one. This defeats every finite Poincaré constant for that modified version. Later pointwise conclusions always use the canonical law."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.6",
+    "unit": "A",
+    "name": "Domains of the fibre Dirichlet form and colour invariance",
+    "expected": "Proved",
+    "actual": "Proved on the stated regular domains",
+    "statement": "The vertical Dirichlet form descends through the quotient and has a smooth invariant core.",
+    "equation": "\\mathcal T_W(\\bar f\\circ q)=\\int_{Q_W}|\\nabla\\bar f|^2\\,d(q_*\\mu_W).",
+    "proof": [
+      "For a positive smooth density on a compact regular quotient, the weighted Sobolev norm is equivalent to the usual H¹ norm. Smooth approximation in charts and a partition of unity give a core and closability. On regular Lipschitz cut domains use the restriction/density theorem for H¹ with Neumann boundary. Averaging over the compact gauge group is a bounded projection on the form norm. The gradient of an invariant lift is horizontal, and the submersion identifies its norm with that downstairs. Conditional centring is a closed subspace of the direct integral; each fibre semigroup preserves its mean. A compact group averaging projection commutes with the semigroup whenever it preserves that fibre and its measure. At W=I the full global group acts; at a general W use its stabilizer, or invariance of the joint family over W."
+    ],
+    "premises": "The joint full energy can mix retained and eliminated coordinates. The semigroup statement here concerns the fibre form.",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.7",
+    "unit": "A",
+    "name": "Failure of geodesic convexity for the plaquette cut",
+    "expected": "To decide",
+    "actual": "Refuted by an SU(2) quotient geodesic",
+    "statement": "Arbitrarily small plaquette cuts can fail geodesic convexity in the actual quotient metric.",
+    "equation": "\\theta(0)=\\varepsilon,\\quad\\theta'(0)=0,\\quad\\theta''(0)=-4+O(\\varepsilon)<0.",
+    "proof": [
+      "Take an open four-cell cube, W=I, and the oriented xy plaquette with lower vertex (1,1,1). All edges in the plane z=1 are unused by the coarse paths. In unit quaternions let X=i, Y=j and Z=k. Put exp(±εZ/4) on the four boundary edges with their oriented signs, and identity elsewhere. The active holonomy has angle ε. Other plaquettes have angle at most ε/4. Choose the Hilbert–Schmidt cutoff equal to √[4(1−cos ε)].",
+      "At ε=0 prescribe the four ordered signed velocities X,−Y,−X,Y. Realize each velocity by a circulation on the exterior xy square adjacent to that edge. Each such loop has zero divergence at every vertex, uses only unused edges, and shares just its specified edge with the active face. Their sum is horizontal at identity. For ε>0 project the same left-trivialized velocity orthogonally to the horizontal subspace. The free action gives a smooth projection, so the correction is O(ε). Conjugation about Z fixes the base point and preserves both the metric and the splitting into the Z axis and its perpendicular plane. The projected velocity is still in the perpendicular representation. The first derivative of the invariant angle therefore vanishes.",
+      "A product geodesic with this horizontal initial velocity stays horizontal by conservation of the isometric group momenta. Its projection is a quotient geodesic. Write L(t)=log Uₚ(t). At zero velocity parameter, L(0)=εZ and L′(0)=O(ε), since the four velocities summed to zero at identity. At ε=0 the commutator path is exp(tX)exp(−tY)exp(−tX)exp(tY), so L″(0)=−2[X,Y]=−4Z. Smooth dependence gives the displayed derivative for θ=|L| at ε>0: the positive normalizing term is at most |L′|²/ε=O(ε). Thus both sufficiently close endpoints lie strictly inside every plaquette constraint; their unique short minimizing geodesic touches the excluded boundary at its midpoint. Four numerical horizontal projections independently test this construction. The alternative integrated boundary-error estimate remains open."
+    ],
+    "premises": "Use a single active face, the true midpoint metric and the eliminated gauge quotient. Unit E needs control of the Neumann boundary term.",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "A.8",
+    "unit": "A",
+    "name": "From integrated variances to a pointwise inequality",
+    "expected": "Proved",
+    "actual": "Proved under localization and continuity",
+    "statement": "On a regular family of admitted fibres the integrated, almost-everywhere and canonical pointwise estimates have the same constant.",
+    "equation": "\\operatorname{Var}(f)-\\operatorname{Var}(\\mathbb E[f\\mid W])=\\int\\operatorname{Var}_{\\mu_W}(f)\\,\\nu(dW).",
+    "proof": [
+      "Integrate the pointwise inequality and use total variance. Conversely multiply a test section by bounded coarse weights. The vertical derivative ignores that weight, so localization on every coarse measurable set forces the fibre inequality almost everywhere for the section. A countable dense core in local trivializations and closedness of the forms extend it to all tests on a common full-measure set. To pass to a specified W, extend a smooth test in the midpoint coordinates. Its variance and energy vary continuously on the regular family. A strict violation would persist on an open neighbourhood of positive coarse mass. Approximation by the core finishes the argument. On a moving cut this last step requires continuity of the integrals and positive cut mass, for example when the cut boundary has zero measure and regular test extensions exist. A singular or empty cut needs separate treatment."
+    ],
+    "premises": "Unit E uses the canonical pointwise form; the W2 assembly uses its integrated consequence.",
+    "source": "Rebuilt prompt, Unit A"
+  },
+  {
+    "id": "B.1",
+    "unit": "B",
+    "name": "Linearization of the Wilson action",
+    "expected": "Proved",
+    "actual": "Relative claim refuted; additive expansion proved",
+    "statement": "The quadratic curl term is correct. The proposed error bound proportional to that curl energy fails on noncommuting constant fields.",
+    "equation": "V_p=2(1-N^{-1}\\operatorname{ReTr}U_p),\\quad |V_p(g)-g^2q_p|\\leq \\tfrac13 |g|^3(\\textstyle\\sum_{\\ell=1}^4\\|A_\\ell\\|_{\\mathrm{op}})^3.",
+    "proof": [
+      "Apply Taylor’s theorem to the trace of the ordered product exp(tA₁)⋯exp(tA₄), incorporating the oriented signs into the four anti-Hermitian generators. Trace cyclicity gives the second-order coefficient qₚ=−Tr[(ΣA)²]/N. Leibniz’ formula, unitarity, and |Tr M|/N≤‖M‖ give a third-derivative bound 2(Σ‖A‖)³. For four scaled links of operator norm ≤p, the additive cubic bound is (64/3)p³ for every N, hence 21.334 is a three-decimal upper constant for both N=2 and N=3. In exponential coordinates normalized Haar has a smooth even Jacobian with quadratic error, from the product of squared root sinc factors.",
+      "For SU(2) choose constant positive x-links exp(t i) and positive y-links exp(t j), with inverse values on reverse edges. The oriented linear sum is zero. The scalar part of the commutator is 1−2 sin⁴t, so Vₚ=4 sin⁴t>0 for arbitrarily small t. The diagonal SU(2) embedding in SU(3) multiplies the normalized action by 2/3. No finite relative constant can control this defect by a multiple of qₚ. A small plaquette cut also does not by itself give small logarithms of all un-gauge-fixed links. Fixed-volume convergence of the rescaled conditional ground-state density requires a ground-state asymptotic, gauge fixing, and normalization; the plaquette Taylor estimate alone supplies none of these."
+    ],
+    "premises": "Sections B.2–C.8 start with the explicitly defined Gaussian Maxwell model.",
+    "source": "Rebuilt prompt, Unit B"
+  },
+  {
+    "id": "B.2",
+    "unit": "B",
+    "name": "Order of the fixed-fibre and joint degree-one gaps",
+    "expected": "To decide",
+    "actual": "Proved",
+    "statement": "For positive precision E, the fixed-fibre scalar gap is at most the joint scalar gap for any surjective retained map T.",
+    "equation": "V=\\ker T,\\ R=\\operatorname{ran}(E^{-1/2}T^*),\\qquad \\lambda_J=\\min_{v\\in V\\setminus0}\\frac{\\langle v,E^2v\\rangle}{\\langle v,Ev\\rangle}\\ \\geq\\ \\min_{v\\in V\\setminus0}\\frac{\\langle v,Ev\\rangle}{\\|v\\|^2}=\\lambda_F.",
+    "proof": [
+      "At fixed coarse field the affine conditional law has quadratic precision E restricted to V; translation changes its mean only. In joint white coordinates the retained directions span R and conditional centring removes R in degree one. The bijection y=E¹ᐟ²v from V onto R⊥ gives the middle quotient. Cauchy–Schwarz applied to v and Ev proves the displayed order for each v, and hence for the infima. Global colour invariance restricts the joint operator further. At trivial background it eliminates the scalar linear representation entirely."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit B"
+  },
+  {
+    "id": "B.3",
+    "unit": "B",
+    "name": "Fixed-fibre homogeneous Gaussian chaos",
+    "expected": "Reconstructed from cross-references",
+    "actual": "Proved for the reconstructed target",
+    "statement": "For a fixed Gaussian fibre the minimum energy in homogeneous degree n is n times the first gap.",
+    "equation": "\\lambda^{(n)}_F=n\\lambda_F,\\qquad d\\Gamma(F)H_k=(\\textstyle\\sum_j k_j\\lambda_j)H_k.",
+    "proof": [
+      "Diagonalize the positive tangential precision in an orthonormal basis. Conjugation by the square root of the Gaussian density, or integration by parts in each coordinate, identifies the scalar generator with the sum of one-dimensional Ornstein–Uhlenbeck generators. Products of normalized Hermite polynomials form an orthonormal basis. In degree n the occupation numbers have sum n. Every term in the weighted sum is bounded below by the least eigenvalue times its occupation. Repeating a minimizing mode n times attains that bound. The periodic four-cell computation also constructs an eliminated fine eigenmode of energy √2 at the minimum of the nonzero coarse blocks."
+    ],
+    "premises": "",
+    "source": "Unit B scope reconstructed from sections 6–8 and the received exercise. Printed pages 15–16 were unavailable."
+  },
+  {
+    "id": "B.4",
+    "unit": "B",
+    "name": "Mixed retained–eliminated quadratic chaos",
+    "expected": "Reconstructed from cross-references",
+    "actual": "Refuted doubling; explicit minimum proved",
+    "statement": "Joint conditional centring leaves mixed tensors. The joint quadratic gap need not be twice its degree-one value.",
+    "equation": "E=\\mathrm{diag}(1,3),\\quad T=(1,\\sqrt3),\\quad H_2=\\begin{pmatrix}4&-\\sqrt2\\\\-\\sqrt2&4\\end{pmatrix},\\quad \\lambda_{\\min}(H_2)=4-\\sqrt2<4.",
+    "proof": [
+      "Whiten the Gaussian and rotate to normalized retained and eliminated coordinates r=(1,1)/√2, e=(1,−1)/√2. In this basis E has diagonal entries 2 and off-diagonal entries −1. Conditional expectation in degree n is the symmetric n-fold tensor power of the projection onto R; this follows by conditioning the Wick exponential exp(⟨t,Z⟩−|t|²/2) and matching coefficients. In degree two delete r⊗r. Apply E⊗I+I⊗E to the normalized mixed tensor and e⊗e to obtain the displayed block. The vector (1,1) attains 4−√2. Subtracting this eigenvalue times the squared norm leaves √2(x−y)². This gives both the lower bound and equality."
+    ],
+    "premises": "",
+    "source": "Unit B scope reconstructed from sections 6–8 and the received exercise. Printed pages 15–16 were unavailable."
+  },
+  {
+    "id": "B.5",
+    "unit": "B",
+    "name": "The colour-singlet physical subspace",
+    "expected": "Reconstructed from cross-references",
+    "actual": "Proved at the trivial background",
+    "statement": "A centred quadratic Killing contraction is admissible and singlet. A single adjoint linear observable has no invariant component there.",
+    "equation": "\\mathcal Q_{uv}(Z)=\\sum_{a=1}^{N^2-1}\\big[(u\\cdot Z_a)(v\\cdot Z_a)-\\langle u,v\\rangle\\big].",
+    "proof": [
+      "The adjoint representation fixes only traceless matrices commuting with every group element, hence its fixed vector is zero. The positive invariant quadratic form on the compact simple Lie algebra is a multiple of its Killing metric. Orthogonality of the adjoint matrices preserves the displayed sum. Wick centring removes its scalar expectation. When at least one of the vectors is in R⊥, conditional expectation given the retained field also vanishes. Pairing a symmetric spatial tensor with the invariant metric realizes the whole symmetric quadratic spatial problem inside the singlet sector. On the fixed fibre two copies of the minimizing mode attain 2λF. A nontrivial coarse background can have a smaller stabilizer."
+    ],
+    "premises": "",
+    "source": "Unit B scope reconstructed from sections 6–8 and the received exercise. Printed pages 15–16 were unavailable."
+  },
+  {
+    "id": "B.6",
+    "unit": "B",
+    "name": "Quadratic singlet spectra on open cubes",
+    "expected": "Reconstructed from cross-references",
+    "actual": "Numerical; higher-degree test resolved at L=4 and 6",
+    "statement": "Directly diagonalize the compressed degree-two operator on open cubes of side 4, 6 and 8.",
+    "equation": "\\mathcal P X=X-P_RXP_R,\\qquad H_2X=\\mathcal P\\!\\left(E\\,\\mathcal PX+(\\mathcal PX)E\\right).",
+    "proof": [
+      "Use eigenmodes of the one-dimensional open path incidence matrix in three tensor factors. Axial reflections split the fine transverse space and the retained space into eight parity classes. An unordered pair of such classes is independent in degree two. In the equal-class case use an orthonormal symmetric matrix basis with √2 on off-diagonal coordinates. In different classes use the rectangular matrix block. Axis permutations relate equivalent blocks. A block can be skipped only when the sum of its two sector energy floors exceeds the current upper trial. The runnable code records every retained bound and residual.",
+      "For side four the centred space has dimension (176·177−28·29)/2=15,170. Sides four and six have 3e_min above the reported quadratic minimum, so degrees three and above are excluded up to the stated numerical accuracy. At side eight this simple bound falls below the quadratic value. For each cube 2e_min bounds the quadratic infimum from below and every normalized quadratic trial supplies an upper bound. A residual bounds distance to the finite matrix spectrum; global minimum selection within the solved blocks is numerical."
+    ],
+    "premises": "Exact higher-degree exclusions use e_min=2√2 sin[π/(2(L+1))].",
+    "source": "Unit B scope reconstructed from sections 6–8 and the received exercise. Printed pages 15–16 were unavailable."
+  },
+  {
+    "id": "B.7",
+    "unit": "B",
+    "name": "The finite-volume doubling ratio",
+    "expected": "Reconstructed from cross-references",
+    "actual": "Numerical for the reconstructed target",
+    "statement": "Compare the lowest joint singlet quadratic energy with twice the scalar joint gap at the same volume.",
+    "equation": "r_J(L)=\\lambda_{J,\\mathrm{singlet}}^{(2)}(L)/(2\\lambda_J^{(1)}(L)).",
+    "proof": [
+      "Use the independent degree-one and degree-two calculations in B.2 and B.6. A periodic four-cell block admits a fine-energy floor eigenvector lying in the eliminated tangent space; its Wick powers attain n√2. On open cubes the cross entries of the precision mix retained and eliminated modes. The ratio is already below one at L=4. Three finite ratios establish a failure of universal doubling. Their extrapolation is not an identification of an infinite-volume singlet gap."
+    ],
+    "premises": "",
+    "source": "Unit B scope reconstructed from sections 6–8 and the received exercise. Printed pages 15–16 were unavailable."
+  },
+  {
+    "id": "B.8",
+    "unit": "B",
+    "name": "Comparison under a change of precision",
+    "expected": "Reconstructed from cross-references",
+    "actual": "Conditional on the chosen fixed-fibre form",
+    "statement": "A relative quadratic-form estimate transfers under restriction to a common tangent space. Inversion of the covariance requires positive definiteness.",
+    "equation": "(1-\\delta)E_0\\preceq E\\quad\\Longrightarrow\\quad (1-\\delta)\\iota^*E_0\\iota\\preceq\\iota^*E\\iota.",
+    "proof": [
+      "Evaluate the premise on ιv. This proves the restriction and the variational lower bound on its smallest eigenvalue. For two positive matrices C≤D, conjugate by D⁻¹ᐟ² and invert the positive eigenvalues to obtain D⁻¹≤C⁻¹. A change of precision also changes the white retained subspace E⁻¹ᐟ²ran T*, so the same fixed-subspace argument alone does not order two different joint compressions. The exact missing B.8 wording can be compared later with the two results documented here."
+    ],
+    "premises": "",
+    "source": "Unit B scope reconstructed from sections 6–8 and the received exercise. Printed pages 15–16 were unavailable."
+  },
+  {
+    "id": "C.1",
+    "unit": "C",
+    "name": "A discrete Hodge estimate for blocked one-forms",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "A transverse fine cochain with T v=0 satisfies a box-independent curl inequality.",
+    "equation": "\\|v\\|^2\\leq 6912\\,\\|d_1v\\|^2.",
+    "proof": [
+      "The unprojected coarse two-link sums Bv form a gradient. Take its primitive b and round each fine vertex x down to its even root r. From r to x take positive coordinate steps in increasing axis order and define φ(x)=b(r)+∫Pₓv. Across a positive fine edge compare Pₓ followed by that edge with the possible two-step coarse edge followed by Pᵧ. These monotone paths have the same endpoints and the same multiset of at most four unit steps. Sorting requires at most six adjacent transpositions. The difference of their integrals is a signed sum of the curls of the intervening squares, with repetitions allowed.",
+      "Cauchy–Schwarz bounds the squared error of a single edge by 36 times the sum of squared curls in its side-two box. An even root has at most 24 outgoing fine edges. A square lies in at most eight such boxes, including at a free boundary. Summing and using v orthogonal to d₀φ gives 36·24·8=6912. The figure follows the actual sequence on a four-step edge comparison."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.2",
+    "unit": "C",
+    "name": "Norm and energy inequalities for the open Maxwell operator",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "The transverse square root of the curl Laplacian has norm below four in dimension three.",
+    "equation": "\\|E\\|\\leq2\\sqrt3<4,\\qquad \\langle v,Ev\\rangle\\geq\\|d_1v\\|^2/4.",
+    "proof": [
+      "On a path with L cells, vertex cosine and edge sine bases diagonalize the difference map with singular values 2 sin(πk/[2(L+1)]). On the product the three squared singular values add. At each joint frequency the curl square has that sum on vectors perpendicular to the discrete gradient. This gives the stated norm bound. Eigenvalue by eigenvalue, E²≤‖E‖E; take the quadratic form and identify E² with d₁* d₁ on transverse cochains. Pure gradient directions are removed before the inverse or the square root is used."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.3",
+    "unit": "C",
+    "name": "Volume-independent physical Gaussian gap",
+    "expected": "Proved",
+    "actual": "Proved for the uncut open-box Gaussian",
+    "statement": "The joint colour-singlet physical infimum κ₀ on open factor-two boxes obeys a two-sided certificate.",
+    "equation": "\\tfrac1{27648}\\leq\\kappa_0\\leq7.",
+    "proof": [
+      "Combine C.1 and C.2 on the vertical tangent. Gaussian conditional Poincaré at each fixed coarse field bounds its conditional variance by the reciprocal floor times the tangential energy. Integrate over W for a conditionally centred observable. Its full energy dominates its tangential energy. Restricting to singlets preserves the inequality. A convex cut in *linear* fibre coordinates preserves the Neumann lower estimate through the same curvature bound.",
+      "For the upper bound choose one finite box and a unit white direction u⊥R. The test Σₐ[(u·Zₐ)²−1] is conditionally centred and invariant under global colour rotations. Wick integration gives quotient 2⟨u,Eu⟩≤2√12<7. Taking the infimum over boxes gives the claim. A cut with a moving nonlinear conditional centre requires separate comparison. C.4 strengthens the lower endpoint."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.4",
+    "unit": "C",
+    "name": "A sharper certificate from exact control of the swaps",
+    "expected": "Open",
+    "actual": "Proved; improvement exceeds one order of magnitude",
+    "statement": "Counting the actual swap paths improves the lower bound without using a fitted eigenvalue.",
+    "equation": "\\kappa_0\\geq\\tfrac1{384}\\quad\\text{by analytic counting},\\qquad \\kappa_0\\geq\\tfrac1{64}\\quad\\text{by the exact parity table}.",
+    "proof": [
+      "Let i∈{0,1,2} be the edge direction and b∈{0,1}³ its initial parity. Move the required letters leftward in the word until they match the comparison path, preserving equal-letter order. If bᵢ=0 only the appended i crosses later odd axes. If bᵢ=1 two copies of i cross the earlier odd axes and one crosses the later odd axes. Thus the length is Σⱼ>ᵢ bⱼ+2bᵢΣⱼ<ᵢ bⱼ, at most four. Summing that expression over all 24 row types gives 24. A fixed translated square can occur at most once per listed offset in each row type. Each occurrence determines its even root. Its total multiplicity is therefore at most 24, including on an open boundary.",
+      "Write v−dφ=A d₁v using signed incidence. The absolute row norm is at most four, the absolute column norm at most 24. Weighted Cauchy–Schwarz, first in a row and then summing columns, gives ‖A‖²≤96. With ‖E‖<4 this already proves 1/384, a factor 72 over C.3. The exact column counts sharpen 24 to four. Over all nonempty parity/orientation classes, seven have count one, five have count two, one has count three and one has count four. These account for 24 occurrences; the remaining classes have zero. The same row/column argument now gives 16, hence 1/64. Paths.py gives a finite enumeration and Part 4 separately enumerates all edges of three actual boxes. The improved number is a lower bound, with no sharpness claim."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.5",
+    "unit": "C",
+    "name": "Both infinite-volume periodic infima",
+    "expected": "Proved / numerical",
+    "actual": "Proved with outward-rounded intervals",
+    "statement": "The nested periodic minima converge to the Bloch infima. A scalar inertia test and a one-dimensional interval covering certify each limit.",
+    "equation": "0.5499937532\\leq\\inf\\lambda_F\\leq0.5499937534,\\qquad 1.3892074858\\leq\\inf\\lambda_J\\leq1.3892074861.",
+    "proof": [
+      "By coordinate reflection and permutation take fine half-momentum components pᵢ∈[0,π/2], set tᵢ=sin²(pᵢ/2), s=Σtᵢ and u=2√s. For an alias r∈{0,1}³ the frequency is eᵣ=2√(s+Σᵣᵢ₌₁(1−2tᵢ)). A switched alias has eᵣ≥√2. Write α=0 for F and α=1 for J. If u≥λ the diagonal operator is already ≥λ. Otherwise D=diag(eᵣ−λ), repeated on each transverse polarization, has two negative entries. The constraint matrix is T E^(−α/2). On the two-dimensional retained space the inverse Schur matrix is its product with D⁻¹ and the adjoint. If this matrix is negative definite, inertia under congruence uses both negative directions there and the constrained restriction is positive. Equality follows by taking a limit from a slightly smaller λ. In the numerical interval lower tests the bounds are strict except where tested by continuity.",
+      "The raw two-link diagonal times the fine gradient equals the coarse gradient, since (1+eⁱᑫ)(eⁱᑫ−1)=e²ⁱᑫ−1. Coarse transverse polarization annihilates this vector. Each alias contribution therefore reduces to the compression of a diagonal matrix. Divide its jth entry by the magnitude of the soft negative term. Positivity on the constrained space is guaranteed when Hⱼ≤1, where Hⱼ=(λ−u)uᵅΣᵣ≠₀ bᵣ g(s+|r|−2Σᵣᵢ₌₁tᵢ), g(v)=1/[(2√v)ᵅ(2√v−λ)], and bᵣ is one for rⱼ=0 and tⱼ/(1−tⱼ) otherwise. All terms have positive denominators on the region under test.",
+      "For 0≤s≤λ²/4<1/2, g is decreasing and convex. Indeed v↦2√v is concave, and the positive decreasing convex function e↦e⁻ᵅ/(e−λ) composed with it is convex. Fix s and tⱼ. Interchanging the other two components pairs convex functions of their split, whose sum is maximal at an endpoint. Write the remaining nonzero coordinates as a=tⱼ, s−a. Terms without rⱼ are convex in a. Terms with rⱼ multiply a/(1−a) by a positive constant or by a positive increasing convex g(s+k−2a). Their products are convex. Thus the maximum is at a=0 or s; an axial transverse polarization attains the perpendicular expression.",
+      "At these endpoints the sum reduces to h⊥=g(1−s)+g(1+s)+g(2−s), or h∥=2g(1+s)+g(2+s)+[s/(1−s)]·[g(1−s)+2g(2−s)+g(3−s)]. For each rational lower endpoint the interval checker covers 0≤u≤λ in both cases. It bounds (λ−u)uᵅh directly or by the value at the interval midpoint plus a derivative enclosure times the radius. At the upper endpoint it verifies H⊥>1 at u=0 in the fibre limit, and at u=0.855583 for the joint form. Along that axis the transverse Schur matrix is scalar, giving a constrained eigenvalue below the test level. The first witness is interpreted as a punctured-axis limit. All arithmetic after the rational inputs uses outward intervals. Nonzero dyadic momenta are dense. Continuity away from the zero block and the axial upper witnesses give the same infimum along the nested grids. This proof determines two scalar periodic quantities; κ₀ in C.3 concerns open-box physical singlets."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.6",
+    "unit": "C",
+    "name": "Comparison with the open boundary",
+    "expected": "To decide",
+    "actual": "Numerical; equality of limits open",
+    "statement": "Compute the lowest open-box fibre and joint values and test whether the minimizing vectors concentrate on boundary faces.",
+    "equation": "L=4,8,16,32,\\qquad P=P_f-\\tfrac12B^*P_cB P_f.",
+    "proof": [
+      "The raw two-link map obeys BB*=2I and takes fine gradients to coarse gradients. Its adjoint takes coarse transverse cochains to fine transverse cochains; this yields the displayed vertical projector. Use the separable path bases from C.2 and group modes by their three reflection parities. Diagonalize E on the vertical space for F. For J use white coordinates and the orthogonal projector with retained Gram matrix T E⁻¹ T*. The largest box uses separable applications of B and an actual coarse Cholesky solve in each symmetry sector. For each computed minimum the residual is below 10⁻⁸. The table gives the share of the squared vertical representative on the union of outer-face edges, compared with the fraction of all such edges.",
+      "The observed fibre and joint minima remain above their respective certified periodic limits at these four sizes, and the reported fibre face mass falls below the uniform-edge fraction. A finite residual and decreasing face fraction cannot rule out a lower half-space or corner spectrum. Ordinary reflection of the open path at a half vertex exchanges even and odd sites and fails to preserve the same two-link map. A proof still needs lower control of all boundary channels, or a normalized boundary trial with lower limiting energy. The sharp open physical infimum also requires the higher singlet sectors."
+    ],
+    "premises": "At each tested size the open fibre value lies below the periodic fibre value at that size, while the open joint value lies above the corresponding periodic joint value.",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.7",
+    "unit": "C",
+    "name": "Monotonicity and plateaus on nested grids",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "Doubling the periodic side embeds every old momentum and preserves its symbol, so both minima are nonincreasing.",
+    "equation": "\\min_{\\mathcal G_{2L}}\\lambda\\leq\\min_{\\mathcal G_L}\\lambda,\\qquad k\\longmapsto 2k.",
+    "proof": [
+      "The excluded zero momentum maps to itself. For every other index the coarse angle and all alias matrices are identical at 2k on the doubled grid. Taking a minimum over a superset proves monotonicity. Equality means that no newly available point improves the old minimum. The script enumerates symmetry-reduced triples, expands every minimizing triple into all signed permutations modulo L/2, and removes duplicates. The joint multiplicities are 3, 6, 6, 6, 6 and 6. The sum of degeneracies of polarizations is a different quantity."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "C.8",
+    "unit": "C",
+    "name": "Dimension and colour dependence of the certificate",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "The scalar bound is independent of the colour multiplicity; the elementary path proof also supplies an explicit dimension-dependent bound.",
+    "equation": "\\kappa_{\\mathrm{coarse}}(d)=\\left[\\left(\\frac{d(d+1)}2\\right)^2 d\\,2^{2d}\\,(2\\lceil\\sqrt d\\rceil)\\right]^{-1}.",
+    "proof": [
+      "A sorted path has at most d+1 positive steps. Allow all binomial(d+1,2) swaps, d·2ᵈ outgoing edges per root and 2ᵈ containing boxes per square. The path spectral norm is ≤2√d. Rounding this up as in the original certificate gives denominators 1152, 27648 and 409600 for d=2,3,4. The actual row/column enumeration yields squared operator factors 4,16,48 in those dimensions. The free colour components are copies of one spatial operator with the product metric, so duplicating the components leaves the scalar spectrum unchanged. Restricting to colour invariants changes the allowed tensors, as in B.5."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit C"
+  },
+  {
+    "id": "D.1",
+    "unit": "D",
+    "name": "Uniform weighted curvature on the conditional quotient",
+    "expected": "Definition",
+    "actual": "Definition · Wilson estimate open",
+    "statement": "For each admitted index give the quotient its pushed-forward density and metric. Require one uniform relative defect below one for the curvature in every tangent direction.",
+    "equation": "\\exists \\kappa>0,\\ d<1\\quad\\forall i,\\ q\\in S_i,\\ v\\in T_qQ_i:\\quad (\\mathrm{Ric}+\\nabla^2 U_i)(v,v)\\ge (1-\\delta_i)\\,2\\kappa\\,\\|v\\|^2/x_i,\\quad 0\\le\\delta_i\\le d.",
+    "proof": [
+      "Write Uᵢ as minus the logarithm of the density of the canonical conditional law with respect to the quotient Riemannian volume. Include the orbit-volume factor in that density. On each regular stratum use the induced quotient metric and the covariant Hessian. The eliminated gauge action is free here. Test all tangent vectors, with arbitrary colour and position dependence. The constant κ is an all-direction reference and must be justified for the reference Hessian. The Gaussian certificate 1/27648 gives a conservative scale provided the reference comparison of C.1–C.3 is used; a sharp physical singlet eigenvalue alone gives no such comparison. A cut with boundary requires a separate integration-by-parts estimate in E.1."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.2",
+    "unit": "D",
+    "name": "Fixed-volume semiclassical reduction",
+    "expected": "Proved",
+    "actual": "Conditional · fixed-box analytic input outstanding",
+    "statement": "A twice-differentiable semiclassical approximation with a relative Hessian error on the prescribed cut supplies a fixed-box defect vanishing with the coupling.",
+    "equation": "\\|\\nabla^2(U_i-\\Phi_i/x_i)\\|_{\\mathrm{op}}\\le C_\\Lambda\\rho(g_i)/x_i\\quad\\Longrightarrow\\quad\\delta_i\\le C'_\\Lambda\\rho(g_i).",
+    "proof": [
+      "Fix the box, quotient, coarse data and a gauge chart. If the leading eikonal has Hessian at least 2κ, subtract the displayed error in each unit direction; bounded background Ricci errors enter as O(x). Rescaling gives the displayed conclusion. For ρ(g)=g^{1−δ/2}, 0<δ<2, both losses vanish at fixed volume. The constants can depend on the box. A pointwise expansion of the ground state at its minimum gives no uniform control of two derivatives on the moving cut. Degenerate minima and coarse holonomy also require treatment. The asserted semiclassical premise for arbitrary admitted Wilson data remains outstanding."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.3",
+    "unit": "D",
+    "name": "Curvature of a Euclidean marginal",
+    "expected": "Open",
+    "actual": "Open · marginal identity proved",
+    "statement": "Marginalization produces a negative covariance correction. An interacting Schur estimate uniform in slab length, volume and coarse conditioning would control that correction.",
+    "equation": "U_{uu}=\\mathbb E[S_{uu}\\mid u]-\\operatorname{Cov}(S_u,S_u\\mid u),\\qquad S_{uu}-S_{ut}S_{tt}^{-1}S_{tu}\\succeq(1-\\delta_i)H_{0,i}.",
+    "proof": [
+      "Write the finite-slab density with its coordinate Jacobian absorbed into exp(−S). Differentiate its integral in u under domination and then differentiate its logarithm. The first derivative is the conditional mean of Sᵤ. The derivative of that mean gives the mean Hessian minus the score covariance. For a positive quadratic block, completion of squares gives the exact Schur complement. Under strict conditional t-convexity, Brascamp–Lieb bounds the score variance by the expected mixed Hessians contracted against the inverse t-Hessian. This yields a sufficient lower bound after averaging. The Schur correction can be strictly positive even for one retained and one eliminated coordinate."
+    ],
+    "premises": "Missing: one κ>0 and d<1 for all admitted boxes, u and unit directions with the averaged Schur lower bound, including temporal-tail domination, gauge zero-mode removal, a valid boundary treatment and passage to the Hamiltonian ground-state law.",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.4",
+    "unit": "D",
+    "name": "The Witten one-form comparison",
+    "expected": "Open",
+    "actual": "Open · finite-dimensional reduction",
+    "statement": "The Witten representation expresses covariance through the inverse weighted one-form operator. A uniform relative perturbation bound, including a boundary form, would give coercivity.",
+    "equation": "\\mathcal L^{(1)}=\\nabla^*\\nabla+\\mathrm{Ric}+\\nabla^2 U,\\qquad |\\mathcal R_i(\\omega)|+\\mathcal B^-_i(\\omega)\\le d\\,\\mathcal Q_{0,i}(\\omega),\\quad d<1.",
+    "proof": [
+      "For a mean-zero smooth f solve Lh=f on the complement of the constants with reflecting boundary. Differentiate and use dL=L⁽¹⁾d. Integration by parts gives Cov(f,g)=⟨df,(L⁽¹⁾)⁻¹dg⟩ with absolute boundary conditions on one-forms. On Gaussian space the constant-gradient sector sees its precision matrix, so this identity gives the usual inverse precision covariance. Subtract the quadratic reference and take quadratic forms; the displayed estimate leaves (1−d) times the reference form. Boundary signs depend on the second fundamental form. A.7 rules out taking ordinary cut convexity for granted."
+    ],
+    "premises": "For all volumes, all admitted data and all form-domain vectors, establish the relative estimate with the same d<1, and determine whether it yields the needed pointwise tensor floor or only the functional inequality for E.2.",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.5",
+    "unit": "D",
+    "name": "Horizontal curvature of the pushed-forward density",
+    "expected": "Open",
+    "actual": "Open · weighted submersion reduction",
+    "statement": "The horizontal Hessian of the interacting density is the term that must supply curvature of order 1/x on the quotient.",
+    "equation": "\\forall i,q,X:\\quad \\nabla^2(-\\log\\psi_i^2)(\\widetilde X,\\widetilde X)+\\mathrm{Ric}_{\\mathrm{geom}}(\\widetilde X,\\widetilde X)\\ge (1-\\delta_i)2\\kappa\\|X\\|^2/x_i.",
+    "proof": [
+      "Apply the weighted submersion formula to the metric and volume of A.4. The normalized conditional fibre density upstairs is invariant along gauge orbits, so its horizontal derivative is the derivative downstairs. The orbit-volume factor is precisely the term needed when changing the reference volume. Horizontal Ricci and the nonnegative O’Neill term are geometric contributions at order one in coupling. They do not generate the weak-coupling order 1/x. A relative horizontal Hessian comparison for the vacuum would yield the claimed floor, subject to the submersion hypotheses. Route E asks for a marginal estimate; route H asks for a relative form estimate; route G asks for the horizontal density Hessian."
+    ],
+    "premises": "Missing: prove the displayed estimate with κ,d independent of the volume, scale, coarse field and unit direction on every admitted cut.",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.6",
+    "unit": "D",
+    "name": "Long-range tails of the projected Gaussian precision",
+    "expected": "To decide",
+    "actual": "Decided for the specified embedded precision",
+    "statement": "The canonical orthogonally projected kernel fails a volume-uniform absolute row-sum bound. Its leading anisotropic kernel has a cubic inverse-distance envelope in three dimensions.",
+    "equation": "K=P E P,\\qquad \\lim_{q\\to0\\parallel e_y}K_{yy}^{(100)}=2,\\qquad \\lim_{q\\to0\\parallel e_x}K_{yy}^{(100)}=(10+\\sqrt2)/8.",
+    "proof": [
+      "In alias coordinates P removes the transverse coarse path sums from the full fine transverse sector. Apply PEP to the y-component in alias (1,0,0). Along the y-axis the direction is retained in this alias, with energy 2 in the limit. Along the x-axis the transverse coarse constraint projects this vector to 3/4 of itself minus 1/4 of each of the other three aliases in the path block. Their energies tend to 0, 2 and 2√2. Weighting by the squared coefficients gives (10+√2)/8. The unitary map to cell coordinates has a continuous limit independent of approach, hence the matrix-valued symbol has an angular jump.",
+      "Uniform absolute row sums would imply absolutely summable infinite-volume coefficients by Fatou, since each fixed Fourier coefficient converges by Riemann sums. Such a Fourier series is continuous, contrary to the two directional limits. For the decay order, the path and incidence symbols are analytic away from zero. Near zero, factor powers of |q| out of the transverse and retained projectors; the coarse transverse Gram inverse is smooth on the unit sphere. The leading term is a smooth degree-zero angular matrix with a nonconstant harmonic. Smooth dyadic partition and integration by parts bound the order-one remainder by O(|r|⁻⁴); the homogeneous degree-zero term transforms, off the origin, into degree −3 with a nonzero angular coefficient for a nonconstant spherical harmonic. This is an envelope, with cancellation in individual directions. Fitted shell envelopes and row sums through side 32 are printed with the data.",
+      "This conclusion concerns PEP in the specified redundant link coordinates. Another extension of the quadratic form off the constrained space has other entries. It excludes a direct proof from a uniform absolute row-sum bound for this representative; cancellations and different block coordinates remain possible."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.7",
+    "unit": "D",
+    "name": "Perturbation and block-mixing alternatives",
+    "expected": "Open",
+    "actual": "Open · conditional criteria identified",
+    "statement": "Bounded density perturbations and block conditional inequalities offer alternative sufficient conditions for a uniform Poincaré constant.",
+    "equation": "C_P(\\nu)\\le e^{\\operatorname{osc} V}C_P(\\mu),\\qquad \\inf_i\\lambda_{\\min}(\\operatorname{diag}(\\rho_{i,j})-\\Gamma_i)>0.",
+    "proof": [
+      "If dν is proportional to e^(−V)dµ, compare ∫(f−a)²dν and its energy using the largest and smallest density ratios and minimize over a. The ratio is e^osc V. Repeating a fixed positive plaquette correction over disjoint cells yields an extensive oscillation for an additive correction; this method needs a new, volume-uniform oscillation estimate for the true conditional correction. For a block criterion assume every conditional block satisfies its one-block inequality, a bound Γ on mixed interactions holds in those coordinates, and the block comparison matrix is uniformly positive. The usual conditional covariance argument then gives a uniform functional inequality in the corresponding normalization. D.6 obstructs an absolute-row-sum shortcut. It does not by itself prove a sign or size for every block influence matrix."
+    ],
+    "premises": "Missing: a specified decomposition of the interacting conditional law, certified single-block constants, a uniform mixed interaction estimate, positivity of the comparison matrix and boundary control.",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "D.8",
+    "unit": "D",
+    "name": "A curvature floor for a pinned SU(2) link",
+    "expected": "To prove",
+    "actual": "Proved in the one-link model · four interval checks",
+    "statement": "On the whole weak interval the pinned one-link radial law has a positive curvature floor on the prescribed small-field interval.",
+    "equation": "-(\\log w)''\\ge \\frac{4(1-\\sqrt{x}/4)}{x},\\qquad w(\\theta)=\\sin^2\\theta\\,\\psi_x(\\cos\\theta)^4,\\quad 4(1-\\cos\\theta)<\\sqrt x.",
+    "proof": [
+      "Set c=cos θ. The class Hamiltonian is H=−x[(1−c²)∂²−3c∂]/2+2(1−c)/x. Let u=log(e^(−tH)1), a=x(1−c²)/2 and b=−3xc/2. Positivity gives u_t=a(u″+u′²)+bu′−2(1−c)/x. For v=u″ differentiate twice to obtain v_t=av″+(2a′+b+2au′)v′+(a″+2b′+4a′u′+2av)v+a″u′². On each finite time interval the coefficients are bounded by smoothness of the even class heat solution; at ±1 diffusion vanishes and the drift −7xc/2 points inward. Multiply by e^(−Mt) with M above the zeroth-order coefficient and apply the maximum principle at an interior or endpoint maximum. Since a″=−x and v starts at zero, v≤0. Spectral projection on the unique positive ground state on the compact group gives concavity of A=log ψ as a function of c.",
+      "For f=e^(c/x), Hf/f=3c/2+(1−c)[2−(1+c)/2]/x≥3/2 for x≤1/6 and c≤1. Integrate against the positive ground state using self-adjointness, obtaining E≥3/2. Regularity of the ground-state equation at c=1 gives A′(1)=2E/(3x)≥1/x. Concavity gives A′(c)≥1/x. Now −(log w)″=2csc²θ+4[cA′−(1−c²)A″]. On the cut c>1−√x/4>0, which gives the stated floor. Since κ₀≤7, one valid defect in the prompt normalization is δ(x)=1−2(1−√x/4)/7<1.",
+      "A second check brackets the class ground energy by rational LDL pivots and a positive high-mode Schur tail starting at character 64. Use the regular Taylor series of ψ(1−z)/ψ(1) from the radial ODE, enclose its first two derivatives with outward interval arithmetic and bound the curvature between mesh nodes. Four certified lower endpoints are 282.178112, 115.637338, 63.722765 and 40.488961 at x=0.02, 0.05, 0.1 and 1/6. The certificate file gives the energy brackets, derivative bounds and mesh sizes. This is a finite pinned class-function model."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit D"
+  },
+  {
+    "id": "E.1",
+    "unit": "E",
+    "name": "The Neumann curvature criterion",
+    "expected": "Cited",
+    "actual": "Cited theorem · application conditional",
+    "statement": "On a compact weighted Riemannian manifold with smooth locally convex boundary a positive Bakry–Émery lower bound gives both a Neumann Poincaré inequality and a logarithmic Sobolev inequality.",
+    "equation": "K\\operatorname{Var}_{\\mu} f\\le\\int|\\nabla f|^2\\,d\\mu,\\qquad K\\operatorname{Ent}_{\\mu}(f^2)\\le2\\int|\\nabla f|^2\\,d\\mu.",
+    "proof": [
+      "Bochner’s formula gives Γ₂(f)=‖Hess f‖²+(Ric+Hess U)(∇f,∇f). For reflecting diffusion the boundary term has the required sign under local convexity. Gradient contraction and integration along the Markov semigroup give the two displayed inequalities. See Wang’s Neumann gradient/semigroup characterization. Compactness and freeness are supplied by A.2–A.3 for the uncut quotient; smooth positive density by the canonical version of A.5. D.1 supplies the bulk curvature only as a hypothesis. The intersection cut can have multiple faces, and A.7 supplies a counterexample to geodesic convexity. A reflecting-boundary theorem with quantified boundary loss, or a separately proved localized functional inequality, is needed before applying the criterion to every admitted cut."
+    ],
+    "premises": "Premises for the application: invariant quotient metric and pushed-forward volume, canonical positive density, appropriate reflecting domain, uniform bulk curvature, and a valid Neumann implication for that domain.",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "E.2",
+    "unit": "E",
+    "name": "Uniform conditional variance",
+    "expected": "Conditional",
+    "actual": "Proved conditional implication",
+    "statement": "A uniform curvature defect and a valid Neumann Poincaré implication on every admitted fibre imply the uniform fibre inequality.",
+    "equation": "c=2(1-\\delta_{\\max})\\kappa>0,\\qquad c\\,V_i\\le x_i\\mathcal T_i.",
+    "proof": [
+      "Apply the Neumann implication KᵢVᵢ≤Tᵢ to each index with Kᵢ=2(1−δᵢ)κ/xᵢ. Since xᵢ>0, Vᵢ≥0 and δᵢ≤δmax, multiplication and comparison give cVᵢ≤xᵢTᵢ with the same c for every index. Pulling back an admitted class by any inclusion preserves c. A numerical witness inside the weak interval takes x=1/6, κ=1, δ=0, V=1/12 and T=1. It saturates both inequalities. The original Lean free-model witness has normalized g=1 and witnesses consistency of its abstract hypotheses. A real Wilson law still needs D.1 and E.1."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "E.3",
+    "unit": "E",
+    "name": "Eliminated energies and the direction of comparison",
+    "expected": "Conditional",
+    "actual": "Proved conditional implication",
+    "statement": "For a positive variance and spacing the uniform eliminated gap is bounded below by c/2. Every pointwise floor dominates this guaranteed uniform lower bound.",
+    "equation": "a_iE_i/V_i\\ge(1-\\delta_i)\\kappa\\ge(1-\\delta_{\\max})\\kappa=c/2.",
+    "proof": [
+      "Use the physical energy inequality Eᵢ≥xᵢTᵢ/(2aᵢ). Multiply KᵢVᵢ≤Tᵢ by xᵢ/(2Vᵢ), then apply that energy inequality. Since κ≥0 and δᵢ≤δmax, the second comparison follows. Passing to an infimum preserves the uniform bound. As δᵢ tends to zero the pointwise certificate approaches the chosen reference κ. Recovery of a sharp physical gap would require an independently sharp all-direction comparison. The proof uses the canonical pointwise inequality or its integrated version on conditionally centred states."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "E.4",
+    "unit": "E",
+    "name": "Exclusion of a double-well collapse",
+    "expected": "Proved",
+    "actual": "Proved",
+    "statement": "A positive uniform curvature floor on a reflecting interval rules out the sequence of exponentially small odd trial quotients associated with the repulsive quadratic potential.",
+    "equation": "U(t)=-s t^2,\\quad f(t)=\\max(-1,\\min(1,4t)),\\qquad R_s(f)\\le8e^{-3s/16}\\quad(s\\ge0).",
+    "proof": [
+      "Symmetry gives zero mean. The derivative is 4 on |t|<1/4 and zero elsewhere, so the unnormalized numerator is at most 8e^(s/16). On |t|≥1/2 the squared test is one and the denominator is at least e^(s/4). Divide and cancel normalization. With U″≥K>0 the Neumann inequality implies every quotient is at least K, a contradiction at sufficiently large s. Here U″=−2s. The four quadrature rows use the true piecewise integrals with breakpoints 1/4 and 1/2."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "E.5",
+    "unit": "E",
+    "name": "Entropy and concentration on each fibre",
+    "expected": "Conditional",
+    "actual": "Proved conditional implication",
+    "statement": "Under the Neumann logarithmic Sobolev implication with the same curvature constant, Lipschitz observables have Gaussian upper tails.",
+    "equation": "\\mu_i\\{F-\\mathbb E F\\ge r\\}\\le\\exp[-cr^2/(2L^2x_i)],\\qquad \\operatorname{Lip}(F)\\le L.",
+    "proof": [
+      "Apply the entropy estimate to e^(tF/2). For log moment generating function H(t), tH′(t)−H(t)≤t²L²xᵢ/(2c). Integrate (H(t)/t)′ from zero, centre F, and optimize Markov’s inequality at t=cr/(L²xᵢ). For m plaquette distance functions with mean at most h and common Lipschitz bound L, the upper bound for any of them to exceed p>h is m exp(−c(p−h)²/(2L²xᵢ)). W3 can use this estimate only for an ensemble covered by the inequality. A cut measure already gives zero mass outside its own support; control of the uncut excursion requires a corresponding uncut inequality or a justified comparison."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "E.6",
+    "unit": "E",
+    "name": "Separation on a weak trajectory",
+    "expected": "Conditional",
+    "actual": "Proved conditional implication · illustrative evaluation",
+    "statement": "A positive eliminated floor and the weak-running estimate give an explicit lower bound on scale separation.",
+    "equation": "1-m/\\Lambda\\ \\ge\\ 1-\\frac{a_Km\\,e^{-d/(6b)}}{(1-\\delta_{\\max})\\kappa},\\qquad d=g_k^{-2}-g_K^{-2}\\le6bn\\log2.",
+    "proof": [
+      "Set aₖ=aK/2ⁿ and γ=c/2>0. From aₖΛ≥γ infer m/Λ≤aₖm/γ. The running estimate implies 2⁻ⁿ≤exp(−d/(6b)) for b>0. Substitute and subtract from one. The bound is informative when its right hand side is positive. The corresponding resolvent estimate is aₖ/(γ−aₖm) when γ>aₖm. The illustration uses aKm=0.1, gK²=1/6 and d=4bn log 2, and is labelled with its assumed κ; a negative lower bound imposes no positive separation."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "E.7",
+    "unit": "E",
+    "name": "Conditional small-field loss in the W2 assembly",
+    "expected": "Conditional",
+    "actual": "Proved conditional implication · interacting input open",
+    "statement": "Combine the retained-channel estimate and the mixed Schur estimate with the dimensionless eliminated gap to bound the one-step loss.",
+    "equation": "\\eta_k\\le(C_S+C_M)g_k^4+(C_a+C_{\\mathrm{mix}})(a_km)^2,\\qquad \\gamma=(1-\\delta_{\\max})\\kappa.",
+    "proof": [
+      "The integrated inequality A.8(c) supplies W2c.4 and yields Dₖ≥γ/aₖ on the eliminated sector. If aₖm<γ the spectral theorem gives ‖(Dₖ−m)⁻¹‖≤aₖ/(γ−aₖm). The W2d retained transport estimate bounds the retained loss by C_S x²+C_a u². Assume the W2e mixed-channel estimate, with its threshold resolvent and signed cancellation or other justified uniform control, gives C_M x²+C_mix u². Here x=gₖ², u=aₖm. Add both and apply W2f.small_field_loss. The aggregate constants are exactly the sums printed above; their dependence on the gap enters through those input constants and the threshold margin. No numerical values for the true mixed constants follow from curvature alone.",
+      "For a conditional illustration take κ=1/27648, δmax=1/4, u=κ/4. The dimensionless inverse margin is 1/(κ/2)=55296. Once a weak trajectory has 0≤ηₖ<1 and a summable sequence of upper bounds, the product of the retained fractions is positive (use log(1−t)≥−2t for t≤1/2 in the tail). The large-field sector and strong-coupling passage belong to subsequent units W3 and W4."
+    ],
+    "premises": "Remaining hypotheses: positive conditional floor and valid cut-domain inequality, retained transport, uniform mixed estimate with its threshold margin, and small enough losses along the weak trajectory.",
+    "source": "Rebuilt prompt, Unit E"
+  },
+  {
+    "id": "F.1",
+    "unit": "F",
+    "name": "Pinned SU(2) class-function spectrum",
+    "expected": "Numerical",
+    "actual": "Numerical · twelve variational rows",
+    "statement": "Estimate the pinned class Dirichlet gap for six couplings on the full fibre and on the cut. Use the same character vacuum for both measures.",
+    "equation": "H_{jj}=xj(j+2)/2+2/x,\\quad H_{j,j+1}=-1/x,\\quad z=x\\lambda/2,\\quad z_{\\mathrm{pin}}=2\\sqrt2.",
+    "proof": [
+      "Two dynamic links multiply to I and the environment is pinned. In the character basis χⱼ=sin((j+1)θ)/sin θ, multiplication by 2cos θ connects adjacent characters, giving the tridiagonal matrix displayed above. Compute the positive class vacuum and form the Haar radial density sin²θ ψ⁴. Centre the character trials, integrate gradients and covariances on the full or restricted interval, and solve the generalized eigenproblem. Restriction gives the natural Neumann form on the cut. Repeat with three accuracy settings for the vacuum, angular quadrature and trial space. All relative changes at the last refinement are below 2×10⁻⁴. At x=.02 the full ratio is 0.994680; positivity of curvature is proved separately in D.8. The finite Ritz values estimate upper bounds for the corresponding gap, subject to numerical integration and vacuum error."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit F"
+  },
+  {
+    "id": "F.2",
+    "unit": "F",
+    "name": "Pinned SU(3) class-function spectrum",
+    "expected": "Numerical",
+    "actual": "Numerical · twelve variational rows",
+    "statement": "Repeat the character and restricted-torus calculation for SU(3), with its specified quadratic Casimir normalization.",
+    "equation": "C_2(p,q)=(p^2+q^2+pq+3p+3q)/3,\\qquad z_{\\mathrm{pin}}=2/\\sqrt3.",
+    "proof": [
+      "Diagonalize the triangular-weight character truncation with vacuum potential 2(1−Re Tr U/3)/x. Tensoring by the fundamental and antifundamental contributes six candidate neighbouring highest weights, omitting negative labels. On the maximal torus the Weyl density is the squared alternant. Evaluate the Weyl sums using shifted Fourier grids, centre Weyl-invariant trial functions, and use the inverse torus metric with diagonal entries 1/3 and off-diagonal entries −1/6. Near the identity the potential is quadratic; in this Casimir metric the pinned oscillator reference is 2/√3. For the cut integrate to the radial root of ‖I−U‖²HS<√x separately at each angle. Compare Ritz degrees 4, 5 and 6 and independent signed character products against Weyl integration. All twelve last changes are below 10⁻³. The full ratio at x=.02 is 0.994207. Absolute eigenvalue certification would also require validated high-weight tails and a lower bound."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit F"
+  },
+  {
+    "id": "F.3",
+    "unit": "F",
+    "name": "Finite-time transfer on a pinned SU(2) slab",
+    "expected": "Numerical",
+    "actual": "Numerical · forty seeded comparisons",
+    "statement": "Compare independent midpoint Monte Carlo trials with quadrature, at two couplings, five temporal discretizations, two domains and two test functions.",
+    "equation": "d\\mu_T(\\theta)\\ \\propto\\ \\sin^2\\theta\\,F_T(\\theta)^4\\,d\\theta,\\qquad f_j(\\theta)=(1-\\cos\\theta)^j,\\quad j=1,2.",
+    "proof": [
+      "In temporal gauge let βₜ=1/(εx), use the character multipliers (j+1)I_{j+1}(βₜ)/I₁(βₜ) for the normalized Wilson weight and the normalized convolution eigenvalues in the transfer operator. Iterate the potential-weighted transfer by spectral diagonalization. Form the four-arm midpoint weight. Each row samples 131072 variates with 64 independent batches of 2048; quadrature on the corresponding interior grid supplies a separate reference. All forty differences are within three batch standard errors. At x=.05, T=6, the full-domain first test gives about 111.613 at the quoted discretization. A cut falling between old nodes explains the apparent movement of the restricted value. Boundary-aligned 511- and 1023-point Gauss rules give 125.118862 for that cut test. These are finite-time upper trial quotients. The transfer refinements study time discretization and finite-slab effects."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit F"
+  },
+  {
+    "id": "F.4",
+    "unit": "F",
+    "name": "Coupled-link volume test",
+    "expected": "Numerical",
+    "actual": "Numerical · finite-slab evidence",
+    "statement": "Test the predeclared warning criterion with one, two, four and eight coupled SU(2) midpoint variables and two weak couplings.",
+    "equation": "V(q)=\\sum_j(1-q_{j,0})+\\sum_{j<n}(1-q_j\\cdot q_{j+1})+(1-q_{n,0}),\\qquad z_{\\mathrm{pin}}=2\\sqrt{\\lambda_{\\min}(I+D^*D+e_ne_n^*)}.",
+    "proof": [
+      "Each midpoint variable represents a length-two spatial path conditioned on coarse product I. With transverse connectors fixed, adjacent plaquettes genuinely couple the variables. Four independent temporal arms conditional on the midpoint sample its finite-slab law. Use exact single-site von Mises–Fisher heat baths on parity classes and reversible collective Hamiltonian Monte Carlo moves with Metropolis correction. Estimate the centred Rayleigh quotients on the span of the class observables Σ(1−qⱼ,₀) and |Σvⱼ vec(qⱼ)|², with v the lowest free strip mode. The induced midpoint metric gives the kinetic factor 1/2. Compare two (ε,T) refinements; use eight independently seeded chains and delete-one-chain jackknife standard errors with Student 95% intervals. Integrated autocorrelation measures sampler mixing.",
+      "The design file fixed a warning before simulation: the last confidence interval must lie below the first and all successive central ratios must decrease at both couplings. This criterion does not trigger. The table reports the actual sampler used, including the refinement from the proposal description to exact heat baths plus HMC. Statistical intervals exclude temporal discretization, finite-T and Ritz truncation bias. These strips test a particular geometry and do not settle the infinite-volume Wilson estimate."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit F"
+  },
+  {
+    "id": "F.5",
+    "unit": "F",
+    "name": "Frozen Lean declarations and axiom evidence",
+    "expected": "Formal",
+    "actual": "Local kernel run · authors’ hosted check pending",
+    "statement": "Assemble and check the statement rounds, fill rounds and combined final packet against the retained locks and an allowlist of standard axioms.",
+    "equation": "\\operatorname{Allowed}=\\{\\mathtt{propext},\\,\\mathtt{Classical.choice},\\,\\mathtt{Quot.sound}\\}.",
+    "proof": [
+      "The canonical project places the rebuilt declarations in namespace W2.W2cR and imports the released W2 chain. Each statement is frozen byte-for-byte before filling. Definitions and structures are fixed in full; theorems are fixed through “:= by”. The three legacy W2c-R modules supply thirteen previously declared entries. The six target modules are followed by a separately locked ten-entry supplement, with both lock stages retained. The final packet evaluates the Lean version, prints the axioms for each registered entry and evaluates a fingerprint of its preceding source. Part 8 checks raw output, source, book, locks and names without invoking Lean. Read the actual kind and level beside each declaration: arithmetic cores formalize the stated calculation; a typed predicate records an open premise. The full geometric and analytic arguments are in the exercise text. The archived upstream packet is also replayed separately."
+    ],
+    "premises": "Local transcript: records/w2c-r/final.local.out. The authors can paste packets/W2cR_final.txt into their approved service and retain its verbatim output at records/w2c-r/final.out. No hosted transcript is supplied.",
+    "source": "Rebuilt prompt, Unit F"
+  },
+  {
+    "id": "F.6",
+    "unit": "F",
+    "name": "Independent reproducibility suite",
+    "expected": "Numerical",
+    "actual": "Eight-part executable suite",
+    "statement": "Provide a single command for a new numerical run, per-target checks and an independent comparison of the book, source, numerical records and proof transcripts.",
+    "equation": "\\mathrm{Part}\\ 1:\\mathrm{W2};\\quad 2{:}7:\\mathrm{A}{:}\\mathrm{F};\\quad 8:\\mathrm{replay}.",
+    "proof": [
+      "Part 1 runs the released W2 Python regressions and companion paper controls. Parts 2–7 compute quotient geometry, Gaussian chaos, open and periodic spectra, curvature, implications and pinned benchmarks. Integer enumeration, exact rational pivots, interval bounds, deterministic linear algebra and seeded Monte Carlo answer different questions; their roles are specified with each table. Part 8 checks the statement locks and matched compiler output, recovers the printed sources and signatures, and compares Word tables against the numeric release records. All computed datasets are distributed, including convergence, residual and seed fields. A failed assertion terminates the command with its target or file."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit F"
+  },
+  {
+    "id": "F.7",
+    "unit": "F",
+    "name": "Versioned release and citation record",
+    "expected": "Release",
+    "actual": "Packaged · public repository, DOI and hosted check pending",
+    "statement": "Preserve the editable exercise, canonical code, input provenance, numerical data and verification records in one independently reproducible archive.",
+    "equation": "\\mathrm{SHA256}(\\mathrm{file\\ bytes})=\\mathrm{manifest\\ entry}.",
+    "proof": [
+      "The archive includes the earlier exercise received in Word, released W2 reference code, canonical Lean project, Python validation suites, hashes, packet sources, local transcripts, and all numerical tables. The current rebuilt target register identifies the six reconstructed entries from the missing Unit B source pages. README and release checklist give clean-run commands and the distinction between local, author-hosted and public release evidence. Cite the new research package once its repository and DOI have been assigned: [GITHUB PLACEHOLDER] and [DOI PLACEHOLDER]. The copyright and MIT grant are reproduced at the end of the exercise and in the active code."
+    ],
+    "premises": "",
+    "source": "Rebuilt prompt, Unit F"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "units": {
+    "A": [
+      "Geometry and conditional measure",
+      "A pair of fine links carries both a retained product and a free midpoint. Once all coarse products are fixed, the remaining link variables form a compact manifold. Dividing by gauge transformations at eliminated vertices gives the quotient on which the conditional energy is defined. The conditional law needs a canonical version if an inequality is claimed at every coarse field. The cut introduces a further geometric issue. A.7 exhibits a quotient geodesic leaving the cut between two admissible endpoints."
+    ],
+    "B": [
+      "Gaussian forms and colour symmetry",
+      "Conditioning a Gaussian changes the subspace on which its precision acts. A fixed-fibre gap, the joint conditionally centred gap and the physical colour-singlet gap therefore answer different variational questions. Hermite degrees add exactly on a fixed fibre. On the joint space conditioning mixes the retained and eliminated directions inside a degree. A two-mode calculation exposes the difference before the open-cube computations quantify it."
+    ],
+    "C": [
+      "Free gaps in open and periodic boxes",
+      "A fine one-cochain is a function on oriented links. Its circulation around a plaquette is a discrete curl. A path argument controls the norm of an eliminated transverse cochain by this curl and supplies a lower bound independent of side length. Fourier aliases then give a much sharper answer for periodic scalar problems. Open physical boxes enter the master claim and have their own boundary question."
+    ],
+    "D": [
+      "Curvature of the interacting vacuum",
+      "The conditional density is built from a Hamiltonian ground state. Its logarithmic Hessian measures the confinement of the eliminated variables. Three analytic approaches and one mixing alternative isolate the estimates that remain missing at arbitrary volume. One pinned SU(2) link admits a direct curvature argument on the full weak interval, giving a test of the mechanism in an interacting finite model."
+    ],
+    "E": [
+      "Consequences of a uniform curvature floor",
+      "A conditional premise is valuable only if its constants survive each step to the physical bound. Starting with the curvature and cut-domain hypotheses, this unit follows the same constant through variance, energy, entropy and scale separation. The final assembly also consumes retained transport and mixed Schur bounds from W2."
+    ],
+    "F": [
+      "Benchmarks and reproducibility",
+      "Upper variational trials, confidence intervals, rigorous interval enclosures and Lean proofs give different information. This unit computes finite-model benchmarks and documents how to reproduce each kind of evidence. A public release and an author-hosted Lean check have independent provenance."
+    ]
+  },
+  "notation": [
+    [
+      "G, N",
+      "SU(N), N ≥ 2"
+    ],
+    [
+      "a, a₀, x",
+      "Fine spacing, initial cutoff, and squared coupling x=g² ∈ (0,1/6]"
+    ],
+    [
+      "U₁,U₂,W,V",
+      "Fine link pair, retained product W, midpoint coordinate V"
+    ],
+    [
+      "QW, µW",
+      "Smooth quotient fibre and canonical conditional probability law"
+    ],
+    [
+      "Tᵢ,Vᵢ,Eᵢ",
+      "Conditional Dirichlet integral, variance and physical energy"
+    ],
+    [
+      "E,T,P",
+      "Transverse Maxwell precision, projected coarse block map and vertical projection"
+    ],
+    [
+      "F,J",
+      "Fixed-fibre and full joint degree-one compressions"
+    ],
+    [
+      "κ₀,κ,δmax",
+      "Physical free-gap infimum, all-direction reference floor and uniform upper bound for defects"
+    ],
+    [
+      "c,γ",
+      "Uniform dimensionless variance floor and eliminated energy floor γ=c/2"
+    ],
+    [
+      "z,zpin",
+      "Dimensionless finite-model trial gap and its oscillator normalization"
+    ],
+    [
+      "ηₖ",
+      "Small-field loss in one blocking step"
+    ]
+  ],
+  "references": [
+    [
+      "W2",
+      "R. Cooperman and A.E. Petrunina V.V. The Small-Field Wilson Estimates for One Blocking Step in SU(N) Lattice Yang–Mills. Earlier paper and accompanying repository.",
+      "https://doi.org/10.5281/zenodo.24492913",
+      "https://github.com/teknoquants/W2-Exercise-and-Lean"
+    ],
+    [
+      "KS",
+      "J. Kogut and L. Susskind. Hamiltonian formulation of Wilson’s lattice gauge theories. Physical Review D 11 (1975), 395–408.",
+      "https://doi.org/10.1103/PhysRevD.11.395"
+    ],
+    [
+      "ON",
+      "B. O’Neill. The fundamental equations of a submersion. Michigan Mathematical Journal 13 (1966), 459–469.",
+      "https://doi.org/10.1307/mmj/1028999604"
+    ],
+    [
+      "Lott",
+      "J. Lott. Some geometric properties of the Bakry–Émery–Ricci tensor. Commentarii Mathematici Helvetici 78 (2003), 865–883.",
+      "https://ems.press/journals/cmh/articles/420"
+    ],
+    [
+      "Wang",
+      "F.-Y. Wang. Semigroup properties for the second fundamental form. Documenta Mathematica 15 (2010), 527–543.",
+      "https://ftp.gwdg.de/pub/misc/EMIS/journals/DMJDMV/vol-15/15.pdf"
+    ],
+    [
+      "BL",
+      "H.J. Brascamp and E.H. Lieb. On extensions of the Brunn–Minkowski and Prékopa–Leindler theorems, including inequalities for log concave functions, and with an application to the diffusion equation. Journal of Functional Analysis 22 (1976), 366–389.",
+      "https://doi.org/10.1016/0022-1236(76)90004-5"
+    ],
+    [
+      "OR",
+      "F. Otto and M.G. Reznikoff. A new criterion for the logarithmic Sobolev inequality and two applications. Journal of Functional Analysis 243 (2007), 121–157.",
+      "https://doi.org/10.1016/j.jfa.2006.10.002"
+    ]
+  ],
+  "problems": [
+    "Count adjacent swaps for monotone lattice paths with fixed endpoints and step multiset; determine the best dimension-dependent bound.",
+    "Characterize positive precisions and block maps for which the conditional joint gap in degree two doubles the degree-one gap.",
+    "Prove the general inequality between fixed-fibre and joint degree-one compressions and identify when equality occurs.",
+    "Sharpen the physical open-box Gaussian lower bound or identify its optimal value and extremizing modes.",
+    "Determine whether a modified small-field cutoff gives a suitable convex domain or a controlled boundary error.",
+    "Characterize the decay of intrinsic block representations of the conditional precision and their absolute row sums.",
+    "Sharpen the proved curvature floor for the pinned radial SU(2) law.",
+    "Formulate a volume-uniform block criterion for a conditional measure with long-range interactions.",
+    "Establish a Wilson-vacuum Hessian floor in all directions, with uniformity in volume and the weak trajectory.",
+    "Construct or exclude a sequence of admitted fibres with diverging conditional Poincaré constants divided by g²."
+  ]
+}

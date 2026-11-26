@@ -1,0 +1,12 @@
+"4.36.0"
+'W2.W2cR.LocalBoundaryControl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.conditional_form_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.bloch_scalar_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.FixedBoxHessianRemainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.MarginalCoercivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.WittenRemainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.HorizontalDensityFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.pinned_energy_barrier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.radial_curvature_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.assembly_with_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt 090ea3a82e831feb2c9e6f2816621cd34e15cb2d63eb82f1ab835cab70de44c2"

@@ -1,0 +1,12 @@
+<stdin>:2933:8: warning: declaration uses `sorry`
+<stdin>:2937:8: warning: declaration uses `sorry`
+<stdin>:2941:8: warning: declaration uses `sorry`
+<stdin>:2946:8: warning: declaration uses `sorry`
+<stdin>:2952:8: warning: declaration uses `sorry`
+<stdin>:2956:8: warning: declaration uses `sorry`
+<stdin>:2960:8: warning: declaration uses `sorry`
+<stdin>:2964:8: warning: declaration uses `sorry`
+<stdin>:2969:8: warning: declaration uses `sorry`
+<stdin>:2973:8: warning: declaration uses `sorry`
+"4.36.0"
+"W2c-R-rebuilt b4be45c922d8339476ac2df5a6fe9cced11f75983f893f8212ce3876db1ea6ab"

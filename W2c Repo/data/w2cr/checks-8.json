@@ -1,0 +1,46 @@
+[
+  {
+    "target": "F.5",
+    "check": "combined kernel transcript covers every registered declaration"
+  },
+  {
+    "target": "F.5",
+    "check": "all printed declaration statements match the canonical bytes"
+  },
+  {
+    "target": "F.5",
+    "check": "entire printed Lean and Python library round trips byte for byte"
+  },
+  {
+    "target": "F.5",
+    "check": "fresh upstream kernel record agrees with the released upstream record"
+  },
+  {
+    "target": "F.6",
+    "check": "every published numerical table matches its saved data"
+  },
+  {
+    "target": "F.6",
+    "check": "new calculations reproduce the displayed values at the printed precision or numerical tolerance"
+  },
+  {
+    "target": "F.6",
+    "check": "all 46 target outcomes and check counts agree with the exercise"
+  },
+  {
+    "target": "F.6",
+    "check": "all six reproduced figures are present as exact Word image objects"
+  },
+  {
+    "target": "F.7",
+    "check": "manifest protects every distributed file"
+  },
+  {
+    "target": "F.7",
+    "check": "every newly developed script and Lean module contains the MIT grant"
+  },
+  {
+    "target": "F.7",
+    "check": "complete target inventory, PDF and editable document"
+  }
+]

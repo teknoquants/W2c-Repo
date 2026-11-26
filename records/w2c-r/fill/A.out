@@ -1,0 +1,17 @@
+"4.36.0"
+'W2.W2cR.AdmittedIndex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.boxVertices' does not depend on any axioms
+'W2.W2cR.boxLinks' does not depend on any axioms
+'W2.W2cR.midpoint_preserves_product' depends on axioms: [propext]
+'W2.W2cR.midpoint_tangent_metric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.stabilizer_propagates' depends on axioms: [propext]
+'W2.W2cR.rectangular_quotient_count' depends on axioms: [propext]
+'W2.W2cR.cube_from_rectangular' depends on axioms: [propext]
+'W2.W2cR.ricci_coefficient_su' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.midpoint_ricci_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.oneill_nonneg_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.two_atom_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.zero_energy_obstructs_poincare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.integrated_of_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.pointwise_of_integrated_cont' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt 4f1507106aebb51174fd92d5f922ee46558c307b2e8f6edccf8ba2e20f2cd386"

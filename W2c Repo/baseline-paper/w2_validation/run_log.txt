@@ -1,0 +1,224 @@
+W2a-R  The physical clock and Wilson calibration
+  [PASS] W2a-R.1: SU(2) Scheme A constants d0, Q, C_xi^A reproduce reference table  (C_xi^A=0.083448)
+  [PASS] W2a-R.1: SU(2) one-step clock change <= C_xi^A x^2 on 20000 samples  (max ratio 0.2716)
+  [PASS] W2a-R.1: SU(2) Scheme B: C_xi^B <= 6A|c1| under the smallness hypotheses  (0.02267 <= 0.12941)
+  [PASS] W2a-R.1: SU(2) Scheme B mismatch <= M_c(1+Q^2)/d0 x^2  (max ratio 0.0206)
+  [PASS] W2a-R.1: SU(3) Scheme A constants d0, Q, C_xi^A reproduce reference table  (C_xi^A=0.330695)
+  [PASS] W2a-R.1: SU(3) one-step clock change <= C_xi^A x^2 on 20000 samples  (max ratio 0.2136)
+  [PASS] W2a-R.1: SU(3) Scheme B: C_xi^B <= 6A|c1| under the smallness hypotheses  (0.07062 <= 0.38723)
+  [PASS] W2a-R.1: SU(3) Scheme B mismatch <= M_c(1+Q^2)/d0 x^2  (max ratio 0.0295)
+  [PASS] W2a-R.1: per-step error <= [C_xi + M_match + C_xi M_match x*^2] g^4
+  [PASS] W2a-R.2: J=10: product of step factors telescopes to c(x0)/c(xJ)
+  [PASS] W2a-R.2: J=1000: product of step factors telescopes to c(x0)/c(xJ)
+  [PASS] W2a-R.2: J=100000: product of step factors telescopes to c(x0)/c(xJ)
+  [PASS] W2a-R.2: cutoff removed at fixed g_J: product -> 1/c_ref(g_J)  (|diff|=1.33e-05)
+  [PASS] W2a-R.2: first correction F_k - 1 = -c1 A g_k^4 + O(g_k^6): |ratio-1| <= 10 g_k^2  (max |ratio-1|/g^2=3.42)
+  [PASS] W2a-R.2: empty product (J=0) equals 1
+  [PASS] W2a-R.3: kappa=0.05, K=10: product equals the gamma ratio
+  [PASS] W2a-R.3: kappa=0.05, K=500: product equals the gamma ratio
+  [PASS] W2a-R.3: kappa=0.05: product ~ const * K^(kappa/A)
+  [PASS] W2a-R.3: kappa=-0.04, K=10: product equals the gamma ratio
+  [PASS] W2a-R.3: kappa=-0.04, K=500: product equals the gamma ratio
+  [PASS] W2a-R.3: kappa=-0.04: product ~ const * K^(kappa/A)
+  [PASS] W2a-R.3: kappa=0.12, K=10: product equals the gamma ratio
+  [PASS] W2a-R.3: kappa=0.12, K=500: product equals the gamma ratio
+  [PASS] W2a-R.3: kappa=0.12: product ~ const * K^(kappa/A)
+  [PASS] W2a-R.3: kappa = 0 gives no drift (product identically 1)
+  [PASS] W2a-R.3: time covariance (1-rho)s = kappa with rho = 1 forces kappa = 0
+  [PASS] W2a-R.4: c_L^2 is invariant under a common energy shift (500 samples)
+  [PASS] W2a-R.5: signed bound 0 <= c_L - 1 + t^2/6 <= t^4/120 for L = 2..4000
+  [PASS] W2a-R.5: free branch: c_L = sin(pi/L)/(pi/L) for every rest mass mu >= 0
+  [PASS] W2a-R.5: reference free-clock table agrees with sin t / t
+  [PASS] W2a-R.6: every switched alias has strictly larger energy for |a p_j / 2| < pi/4
+  [PASS] W2a-R.6: long-time effective energy recovers omega(p) with positive residue
+  [PASS] W2a-R.6: phase speed |omega/|p| - 1| <= |p|^2/12 (200 random momenta)
+  [PASS] W2a-R.7: H_x=(1+x)H_0: same vacuum, gaps scale by 1+x, squared speed changes by 2x+x^2
+  [PASS] W2a-R.8: SU(2): c1 = -(5I1+4I2)N/72 + I1/(6N) = -0.167509851556  (-0.167509851556)
+  [PASS] W2a-R.8: SU(3): c1 = -(5I1+4I2)N/72 + I1/(6N) = -0.334167632989  (-0.334167632989)
+  [PASS] W2a-R.8: independent Duffy cube quadrature reproduces I1, I2
+  [PASS] W2a-R.8: four-moment kernel reduces to alpha = -(5I1+4I2)/72
+  [PASS] W2a-R.8: colour factors over a common denominator (symbolic)
+  [PASS] W2a-R.8: SU(2) residual against printed Hamiltonian-limit pair = 5.0148e-05  (5.014844e-05)
+  [PASS] W2a-R.8: SU(3) residual against printed Hamiltonian-limit pair = 6.2367e-05  (6.236701e-05)
+  [PASS] W2a-R.9: d/dx sqrt((1+k_E x)/(1+k_B x)) at 0 equals (k_E - k_B)/2
+  [PASS] W2a-R.9: normalized product has slope -Delta c_irr when the physical multiplier is 1 + O(x^2)
+  [PASS] W2a-R.10: inverse-clock remainder <= (c1^2+(1+|c1|x*)M)/d x^2 (3000 samples)  (max ratio 0.983)
+  [PASS] W2a-R.10: identity 1 - c(1 - c1 x) = c1^2 x^2 - e(1 - c1 x)
+  -> W2a-R: 45/45 checks passed
+  PASS  validate_w2ar.py  (1 s)
+
+W2b  The exact Gaussian block
+  [PASS] W2b.1: U = exp(gA), E -> E/g: quadratic electric and magnetic terms lose g
+  [PASS] W2b.1: oscillator ground state: H psi = (omega/2) psi
+  [PASS] W2b.1: position variance of the Gaussian ground state is 1/(2 omega)
+  [PASS] W2b.1: matrix functional calculus: vacuum covariance (2 Omega)^-1 = K^(-1/2)/2
+  [PASS] W2b.1: K = d*d has eigenvalue 0 (gauge) and omega^2 twice (transverse) at q != 0
+  [PASS] W2b.2: L=4: periodic gaps 2 sin(pi/L), sin(2pi/L); ratio 1/cos(pi/L)
+  [PASS] W2b.2: L=8: periodic gaps 2 sin(pi/L), sin(2pi/L); ratio 1/cos(pi/L)
+  [PASS] W2b.2: L=16: periodic gaps 2 sin(pi/L), sin(2pi/L); ratio 1/cos(pi/L)
+  [PASS] W2b.2: L=32: periodic gaps 2 sin(pi/L), sin(2pi/L); ratio 1/cos(pi/L)
+  [PASS] W2b.2: 1/cos(pi/L) = 1 + pi^2/(2L^2) + O(L^-4)
+  [PASS] W2b.2: open L=4: diagonalized path Laplacians give gap 2 sqrt2 sin(pi/(2(L+1)))
+  [PASS] W2b.2: open L=8: diagonalized path Laplacians give gap 2 sqrt2 sin(pi/(2(L+1)))
+  [PASS] W2b.2: open L=16: diagonalized path Laplacians give gap 2 sqrt2 sin(pi/(2(L+1)))
+  [PASS] W2b.2: open L=32: diagonalized path Laplacians give gap 2 sqrt2 sin(pi/(2(L+1)))
+  [PASS] W2b.3: factorization 1/h - 1 - sin^2(2t)/8 = (1-h)^2(2+2h+2h^2+h^3)/(2h)
+  [PASS] W2b.3: 0 <= Gamma_k/Gamma_{k+1} - 1 - (a m)^2/8 <= 7 (a m)^4 for even L >= 4
+  [PASS] W2b.3: free lattice-artifact constant C_a^free = 1/8
+  [PASS] W2b.4: closed form R(z) equals the eight-alias covariance ratio (60 momenta, both polarizations)
+  [PASS] W2b.4: four aliases with r_2 = 1 are killed by the two-link factor
+  [PASS] W2b.4: R(0) = 1 (smooth continuation)
+  [PASS] W2b.4: R'(0) = 1 + 1/(2 sqrt 2) = 1.353553  (1.353550)
+  [PASS] W2b.4: direction (1,2,3), a|p|=0.001: slopes 1.353390 and 1.353466  (1.353390, 1.353466)
+  [PASS] W2b.4: both transverse eigenvalues 1 + (1 + 1/(2 sqrt 2)) z + O(z^2) in 20 random directions
+  [PASS] W2b.4: alias bookkeeping: 2*(1/2) + 1/(2 sqrt 2) = 1 + 1/(2 sqrt 2)
+  [PASS] W2b.5: kinetic normalization r_k = 2c_k/c_{k+1} = 4
+  [PASS] W2b.5: transport multiplier R^(-1/2): value 1, slope -(1+1/(2 sqrt2))/2  (-0.676774)
+  [PASS] W2b.6: L=4: matrix Schur complement equals (sum w_i/(E_i-m))^-1 and A = 4/sum(1/E_i)
+  [PASS] W2b.6: L=4: signed margin J* > 0  (0.560830)
+  [PASS] W2b.6: L=8: matrix Schur complement equals (sum w_i/(E_i-m))^-1 and A = 4/sum(1/E_i)
+  [PASS] W2b.6: L=8: signed margin J* > 0  (0.114573)
+  [PASS] W2b.6: L=16: matrix Schur complement equals (sum w_i/(E_i-m))^-1 and A = 4/sum(1/E_i)
+  [PASS] W2b.6: L=16: signed margin J* > 0  (0.011443)
+  [PASS] W2b.6: L=32: matrix Schur complement equals (sum w_i/(E_i-m))^-1 and A = 4/sum(1/E_i)
+  [PASS] W2b.6: L=32: signed margin J* > 0  (0.001194)
+  [PASS] W2b.6: L=64: matrix Schur complement equals (sum w_i/(E_i-m))^-1 and A = 4/sum(1/E_i)
+  [PASS] W2b.6: L=64: signed margin J* > 0  (0.000134)
+  [PASS] W2b.6: L=256: matrix Schur complement equals (sum w_i/(E_i-m))^-1 and A = 4/sum(1/E_i)
+  [PASS] W2b.6: L=256: signed margin J* > 0  (0.000002)
+  [PASS] W2b.6: bare correction / retained energy -> 3/4  (0.749979)
+  [PASS] W2b.6: 0 < b <= (1-h)T and (A-m-J*)/A = 1 - (h+b)T/4
+  [PASS] W2b.7: sup-norm shell in Z^3 has at most 26 n^2 sites
+  [PASS] W2b.7: C/n^4 kernel on K n^2-site shells: total <= K C pi^2/6 (summable)
+  [PASS] W2b.7: free |k| symbol kernel decays like |x|^-4 (fitted exponent approaches 4)  (3.811, 3.896)
+  [PASS] W2b.7: reference score row sums grow across the four grids (no uniform bound established)
+  [PASS] W2b.8: C e^(-mu n) < c n^-4 eventually (C=10.0, mu=0.1, c=0.001): from n=324 on
+  [PASS] W2b.8: C e^(-mu n) < c n^-4 eventually (C=1000.0, mu=0.05, c=0.01): from n=762 on
+  [PASS] W2b.9: every switched alias has strictly larger energy for |a p_j / 2| < pi/4
+  [PASS] W2b.9: long-time effective energy recovers omega(p) with positive residue
+  [PASS] W2b.9: phase speed |omega/|p| - 1| <= |p|^2/12 (200 random momenta)
+  [PASS] W2b.10: signed bound 0 <= c_L - 1 + t^2/6 <= t^4/120 for L = 2..4000
+  [PASS] W2b.10: free branch: c_L = sin(pi/L)/(pi/L) for every rest mass mu >= 0
+  [PASS] W2b.11: fourth derivative of 2(1-cos y) at 0 equals -2
+  [PASS] W2b.11: |omega^2 - |p|^2 + sum p_j^4/12| <= sum |p_j|^6/360 (2000 momenta)
+  [PASS] W2b.4: angular table recomputed independently: exact on axis, agreement to O(z^2) off axis (15 rows)
+  -> W2b: 54/54 checks passed
+  PASS  validate_w2b.py  (1 s)
+
+W2c  Gauge reduction and the eliminated gap
+  [PASS] W2c.1: SU(2): midpoint gauge transformation preserves the coarse product U1 U2 (1000 samples)
+  [PASS] W2c.1: SU(3): midpoint gauge transformation preserves the coarse product U1 U2 (1000 samples)
+  [PASS] W2c.1: a weight of the coarse product is constant on each eliminated-gauge orbit
+  [PASS] W2c.2: per coarse vertex: 8 fine vertices (1+3+3+1) and 24 fine links (6 on paths + 18 unused)
+  [PASS] W2c.2: bulk: fibre 21 dim G, eliminated group 7 dim G, quotient 14 dim G
+  [PASS] W2c.2: V(s)=(s+1)^3, E(s)=3s(s+1)^2 by explicit enumeration of open cubes, s=1..8
+  [PASS] W2c.2: open cube: E(2n)-E(n)-V(2n)+V(n) = 14n^3 + 9n^2 for n = 1..59
+  [PASS] W2c.2: coarse paths use disjoint pairs of fine links (block map is a submersion)
+  [PASS] W2c.3: [evidence] first-chaos eliminated gap a*Lambda_perp >= 1.39 on all four grids  (min 1.391043)
+  [PASS] W2c.3: [obstruction] without a curvature bound the Poincare constant is not uniform (Rayleigh -> 0)
+  [PASS] W2c.4: fibre Poincare + c_k = g^2/(2a) gives D_k >= (c/2a) Var: kappa = c/2 (5000 samples)
+  [PASS] W2c.5: s = sigma/(1+sigma) >= 1 - a m / kappa (5000 samples)
+  [PASS] W2c.5: error a_k m / kappa decays exponentially in the inverse squared coupling
+  [PASS] W2c.6: odd test function has weighted mean zero
+  [PASS] W2c.6: energy <= 8 e^(s/16) and squared norm >= e^(s/4)
+  [PASS] W2c.6: Rayleigh quotient <= 8 e^(-3s/16) and tends to zero  (R(80)=1.97e-31)
+  -> W2c: 16/16 checks passed
+  PASS  validate_w2c.py  (1 s)
+
+W2d  Transport and the retained form
+  [PASS] W2d.1: [obstruction] axial transport multiplier has a nonzero first coefficient -(1+1/(2 sqrt2))/2  (-0.67491)
+  [PASS] W2d.1: [obstruction] a blanket quadratic symbol estimate fails at the axial point: |T-1|/z^2 unbounded
+  [PASS] W2d.2: A = 4m / R(z) on the first axial mode (80 momenta)
+  [PASS] W2d.2: normalized defect A/(4m) - 1 = -(1 + 1/(2 sqrt 2)) z + O(z^2)
+  [PASS] W2d.2: [counterexample] the O(g^0) linear defect violates -C_a (am)^2 for large boxes (C_a = 10)
+  [PASS] W2d.2: defect/m column of the signed-margin table reproduced
+  [PASS] W2d.3: D >= -R/2 - b mV, r >= 1, 0 <= b <= 1 imply A >= (1 - b) m V (10000 samples)
+  [PASS] W2d.3: A g*^2 + B g*^4 <= 3/4 holds at g*^2 = 1/6, B g*^2 = A/2 (so r_k >= 1)
+  [PASS] W2d.4: coefficient u*kappa_bar + v*kappa_phys vanishes when both mismatches vanish
+  [PASS] W2d.5: SU(2): A_+ = 3A/2 = 6 b0 log 2
+  [PASS] W2d.5: SU(2): a_k m <= a_K m exp[-(g_k^-2 - g_K^-2)/(6 b0)] and its square (2000 runs)
+  [PASS] W2d.5: SU(3): A_+ = 3A/2 = 6 b0 log 2
+  [PASS] W2d.5: SU(3): a_k m <= a_K m exp[-(g_k^-2 - g_K^-2)/(6 b0)] and its square (2000 runs)
+  [PASS] W2d.5: exp(-C/g^2) is eventually smaller than exp(-c/g^delta), delta < 2
+  [PASS] W2d.6: sum_k (a_k m_k)^2 <= (4/3)(a_w m_bar)^2, empty run included (3000 runs)
+  [PASS] W2d.7: H_x=(1+x)H_0: same vacuum, gaps scale by 1+x, squared speed changes by 2x+x^2
+  [PASS] W2d.7: speed error <= two-sided squared-speed error / reference speed (5000 samples)
+  -> W2d: 17/17 checks passed
+  PASS  validate_w2d.py  (0 s)
+
+W2e  Conditional scores and the Schur form
+  [PASS] W2e.1: residual precision TQT*/4 - C_nu^-1 >= 0 (Cauchy-Schwarz, 400 momenta)
+  [PASS] W2e.1: residual is strictly positive at generic momenta: Gaussian coupling does not vanish  (400/400 strictly positive)
+  [PASS] W2e.1: [evidence] g^2 J_k > 0 on all four grids, so S_i = O(g^-1), J_k = O(g^-2)  (0.1387, 0.3779, 0.7774, 1.1348)
+  [PASS] W2e.2: ||(D - m)^-1|| <= (Lambda_perp - m)^-1 when D >= Lambda_perp > m (500 matrices)
+  [PASS] W2e.2: scalar lift: mixed term <= J/(Lambda_perp - m) * retained energy
+  [PASS] W2e.2: [obstruction] Gaussian score of the plain map is nonzero, so the quartic route's premise fails
+  [PASS] W2e.3: Schur criterion: block form >= 0 iff A - B* D^-1 B >= 0 for D > 0 (2000 matrices)
+  [PASS] W2e.3: signed axial margin A - m - B*(D - m)^-1 B > 0 at every tested box
+  [PASS] W2e.3: [counterexample] bare correction / A -> 3/4, so no uniform C (am)^2 bare estimate
+  [PASS] W2e.4: relative loss alpha + epsilon - alpha*epsilon <= alpha + epsilon (10000 samples)
+  [PASS] W2e.5: resolvent ratio is invariant under every clock xi > 0 (3000 eigen-data samples)
+  -> W2e: 11/11 checks passed
+  PASS  validate_w2e.py  (0 s)
+
+W2f  Small-field assembly and transfer
+  [PASS] W2f.1: signed Schur estimate at trial gap lambda implies H >= lambda (2419 cases)
+  [PASS] W2f.1: Scheme A coefficients add: C_4 = C_S + C_M, C_a'' = C_a + C_a'
+  [PASS] W2f.2: inherited-time step factors telescope: Z_clock = c(x_0)/c(x_J)
+  [PASS] W2f.2: certificate in a clock-scaled Hamiltonian converts back by one division (no double reciprocal)
+  [PASS] W2f.2: prod(1 + y_k) <= exp(sum y_k)
+  [PASS] W2f.3: Scheme B endpoint factor xi_B(x_J)/xi_B(x_0) exactly
+  [PASS] W2f.3: C_4 = C_S + C_M + M_match^B (SU(2) reference M_match^B bound)
+  [PASS] W2f.4: exp(-c/g^delta) <= D_delta g^4 with D_delta = (4/(e c delta))^(4/delta)
+  [PASS] W2f.4: max_u u^(4/delta) e^(-u) = (4/(e delta))^(4/delta)
+  [PASS] W2f.4: sum x_k^2 <= x*^2 + x*/A_- along every admissible run
+  [PASS] W2f.4: log(1 - eta) >= -eta/(1 - r) for 0 <= eta <= r < 1
+  [PASS] W2f.4: weak-step product >= exp[-S/(1 - r)] with S >= sum eta_k
+  [PASS] W2f.5: SU(2) intermediate step count M = 91 (A_int = A/2) and 46 (A_int = A)  (91, 46)
+  [PASS] W2f.5: n <= M and b^n >= b^M for 0 < b <= 1 (1000 trajectories)
+  [PASS] W2f.5: endpoint not determined: two positive clocks agree on the weak interval and differ later
+  [PASS] W2f.5: fine-scale bound Gamma_0 >= Z_clock z_L m_IR b^M exp[-S/(1-r)] is positive for positive inputs  (5.4873e-02)
+  -> W2f: 16/16 checks passed
+  PASS  validate_w2f.py  (2 s)
+
+Numerical tables
+  [PASS] Tables: axial table L=4: 15 columns recomputed (gap, clock, R, A, correction, margin, defect)
+  [PASS] Tables: axial table L=8: 15 columns recomputed (gap, clock, R, A, correction, margin, defect)
+  [PASS] Tables: axial table L=16: 15 columns recomputed (gap, clock, R, A, correction, margin, defect)
+  [PASS] Tables: axial table L=32: 15 columns recomputed (gap, clock, R, A, correction, margin, defect)
+  [PASS] Tables: open-box table L=4: fine, coarse gaps and ratio
+  [PASS] Tables: open-box table L=8: fine, coarse gaps and ratio
+  [PASS] Tables: open-box table L=16: fine, coarse gaps and ratio
+  [PASS] Tables: open-box table L=32: fine, coarse gaps and ratio
+  [PASS] Tables: pole table: 64 alias energies, residues and phase speeds (axial and diagonal, four sizes)
+  [PASS] Tables: Wilson coefficients c1(SU(2)), c1(SU(3)) in the reference table
+  [PASS] Tables: clock-product table: products telescope to the endpoint, UV limit 1/c(x*)
+  [PASS] Tables: blocked free modes: lowest visible pole equals the fine energy omega(p)
+  [PASS] Tables: all 4676 nonzero coarse momenta: covariance ratios, energies, mixed norms, scores  (max rel diff 2.9e-15)
+  [PASS] Tables: horizontal lift normalization T T* = 2I at every momentum
+  [PASS] Tables: Gaussian conditional score covariance is positive semidefinite at every momentum
+  [PASS] Tables: first-chaos table L=4: alpha, a*Lambda_perp, mixed norm, g^2 J, zeta
+  [PASS] Tables: first-chaos table L=8: alpha, a*Lambda_perp, mixed norm, g^2 J, zeta
+  [PASS] Tables: first-chaos table L=16: alpha, a*Lambda_perp, mixed norm, g^2 J, zeta
+  [PASS] Tables: first-chaos table L=32: alpha, a*Lambda_perp, mixed norm, g^2 J, zeta
+  -> Numerical tables: 19/19 checks passed
+  PASS  validate_numerical_tables.py  (3 s)
+
+Lean register
+  [PASS] Lean: SHA-256 digests of all 34 Lean source and project files match
+  [PASS] Lean: toolchain pinned to Lean 4.36.0 with Mathlib v4.36.0
+  [PASS] Lean: no sorry or admit in 31 Lean files
+  [PASS] Lean: no user-declared axiom in any Lean file
+  [PASS] Lean: recorded kernel audit: 91 axiom records, only propext, Classical.choice, Quot.sound
+  [PASS] Lean: recorded master run reports Lean version 4.36.0
+  [PASS] Lean: per-module replay record: 26 modules CHECK PASSED, none failed
+  [PASS] Lean: 74 public theorems in the release index
+  [PASS] Lean: every public theorem is declared in the sources and appears in the recorded axiom audit
+  [PASS] Lean: 44 numbered targets: W2a-R 10, W2b 11, W2c 6, W2d 7, W2e 5, W2f 5
+  [PASS] Lean: every Lean proof and hypothesis cited by the 44 targets exists
+  -> Lean register: 11/11 checks passed
+  PASS  validate_lean_register.py  (0 s)
+
+Targets covered: 44/44
+Checks passed: 189/189
+ALL CHECKS PASSED

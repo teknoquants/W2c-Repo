@@ -1,0 +1,26 @@
+[
+  {
+    "form": "fibre",
+    "lower": "1374984383/2500000000",
+    "upper": "2749968767/5000000000",
+    "decimals": [
+      0.5499937532,
+      0.5499937534
+    ],
+    "upper_witness_u": "0",
+    "certified_boxes": 52,
+    "maximum_subdivision_depth": 13
+  },
+  {
+    "form": "joint",
+    "lower": "6946037429/5000000000",
+    "upper": "13892074861/10000000000",
+    "decimals": [
+      1.3892074858,
+      1.3892074861
+    ],
+    "upper_witness_u": "855583/1000000",
+    "certified_boxes": 164,
+    "maximum_subdivision_depth": 17
+  }
+]

@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.W2c.eliminated_gap_of_fibre_poincare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2c.cor_5_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2c.negative_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet c956e343a8fa86186b59e99eb731b4c7676a51804212def21f891e40827cdfc8"

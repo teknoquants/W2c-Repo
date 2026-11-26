@@ -1,0 +1,110 @@
+[
+  {
+    "target": "B.1",
+    "check": "zero curl, noncommuting constant fields"
+  },
+  {
+    "target": "B.1",
+    "check": "zero curl, noncommuting constant fields"
+  },
+  {
+    "target": "B.1",
+    "check": "zero curl, noncommuting constant fields"
+  },
+  {
+    "target": "B.1",
+    "check": "zero curl, noncommuting constant fields"
+  },
+  {
+    "target": "B.1",
+    "check": "zero curl, noncommuting constant fields"
+  },
+  {
+    "target": "B.1",
+    "check": "zero curl, noncommuting constant fields"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (4, (0, 0, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (4, (0, 1, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (4, (1, 1, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (6, (0, 0, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (6, (0, 1, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (6, (1, 1, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (8, (0, 0, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (8, (0, 1, 1))"
+  },
+  {
+    "target": "B.2",
+    "check": "Loewner quotient comparison (8, (1, 1, 1))"
+  },
+  {
+    "target": "B.3",
+    "check": "periodic homogeneous gap 1"
+  },
+  {
+    "target": "B.3",
+    "check": "periodic homogeneous gap 2"
+  },
+  {
+    "target": "B.3",
+    "check": "periodic homogeneous gap 3"
+  },
+  {
+    "target": "B.4",
+    "check": "exact two-mode failure of doubling"
+  },
+  {
+    "target": "B.5",
+    "check": "invariance of the colour contraction"
+  },
+  {
+    "target": "B.5",
+    "check": "invariance of the colour contraction"
+  },
+  {
+    "target": "B.6",
+    "check": "every computed quadratic sector residual"
+  },
+  {
+    "target": "B.6",
+    "check": "four-cell singlet benchmark"
+  },
+  {
+    "target": "B.6",
+    "check": "every computed quadratic sector residual"
+  },
+  {
+    "target": "B.6",
+    "check": "every computed quadratic sector residual"
+  },
+  {
+    "target": "B.7",
+    "check": "four-cell doubling ratio"
+  },
+  {
+    "target": "B.8",
+    "check": "compression preserves a relative form bound"
+  }
+]

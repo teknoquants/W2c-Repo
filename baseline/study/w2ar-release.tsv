@@ -1,0 +1,18 @@
+# declaration	target label	code	hypotheses
+W2.Common.free_clock_sinc_bounds	W2a-R.5, free branch / W2b.10	L1	-
+W2.Common.A_enclosure	W2a Definition 1 / §8, SU(2) and SU(3)	L1	-
+W2.W2aR.time_unit_scaling	W2a Proposition 1	L1	-
+W2.W2aR.kinetic_ratio_clock	W2a Corollary 2	L1	-
+W2.W2aR.first_order_compat	W2a Lemma 6	L1	-
+W2.W2aR.no_regular_clock	W2a Corollary 7	L1	-
+W2.W2aR.step_error_schemeA	W2a-R.1(A)	L1	-
+W2.W2aR.step_error_schemeB	W2a-R.1(B)	L1	-
+W2.W2aR.drift_gamma_identity	W2a Theorem 4, finite product	L1	-
+W2.W2aR.drift_asymptotic	W2a Theorem 4, asymptotic (stretch)	L1	-
+W2.W2aR.drift_iff_kappa_ne_zero	W2a-R.3, coefficient criterion	L1	-
+W2.W2aR.clock_step_bound	W2a Theorem 8	L1	-
+W2.W2aR.clock_product_telescope	W2a Corollary 9	L1	-
+W2.W2aR.physical_clock_composes	W2a Theorem 15	L2	DispersionHyp; ClockRegularityHyp
+W2.W2aR.isotropic_telescopes	W2a-R.2	L2	ClockRegularityHyp (physicalRatio as defined)
+W2.W2aR.intermediate_step_count	W2a Proposition 18	L1	-
+W2.W2aR.transfer_bound	W2a Theorem 12	L2	RunningBoundHyp; explicit per-step/endpoint assumptions

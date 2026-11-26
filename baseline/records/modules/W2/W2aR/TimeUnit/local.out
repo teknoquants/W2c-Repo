@@ -1,0 +1,6 @@
+"4.36.0"
+'_private._stdin.0.W2.W2aR.eig_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.eigval_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.time_unit_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.kinetic_ratio_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet f194de9b80749cb08bc89557313f1069cfdeb8c31d1d4ee22a915d06294814e4"

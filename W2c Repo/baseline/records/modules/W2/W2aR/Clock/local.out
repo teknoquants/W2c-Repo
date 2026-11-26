@@ -1,0 +1,15 @@
+"4.36.0"
+'W2.W2aR.stepBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.calibration_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clockEstimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clock_step_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.product_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.initial_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.deviation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clock_product_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.physical_clock_composes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.physical_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.derivative_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.cubic_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.isotropic_telescopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet b6525ca8482a4616f4a4347b5329edb28b750f83ac09d97ef5c43fb64aa90124"

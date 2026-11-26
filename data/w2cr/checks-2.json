@@ -1,0 +1,1498 @@
+[
+  {
+    "target": "A.1",
+    "check": "admitted weak-coupling interval"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 1x7x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 2x7x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 3x7x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 4x7x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 5x7x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 6x7x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x1x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x2x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x3x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x4x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x5x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x6x7"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x1"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x2"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x3"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x4"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x5"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x6"
+  },
+  {
+    "target": "A.3",
+    "check": "rectangle 7x7x7"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.2",
+    "check": "midpoint product invariant"
+  },
+  {
+    "target": "A.2",
+    "check": "two induced tangent norms"
+  },
+  {
+    "target": "A.4",
+    "check": "Killing-form Ricci normalization"
+  },
+  {
+    "target": "A.4",
+    "check": "Killing-form Ricci normalization"
+  },
+  {
+    "target": "A.4",
+    "check": "Killing-form Ricci normalization"
+  },
+  {
+    "target": "A.5",
+    "check": "positive two-orbit variance with zero local energy"
+  },
+  {
+    "target": "A.6",
+    "check": "conditional centring in a two-point model"
+  },
+  {
+    "target": "A.7",
+    "check": "short quotient geodesic at angle 0.18"
+  },
+  {
+    "target": "A.7",
+    "check": "short quotient geodesic at angle 0.09"
+  },
+  {
+    "target": "A.7",
+    "check": "short quotient geodesic at angle 0.045"
+  },
+  {
+    "target": "A.7",
+    "check": "short quotient geodesic at angle 0.02"
+  },
+  {
+    "target": "A.8",
+    "check": "total variance disintegration"
+  }
+]

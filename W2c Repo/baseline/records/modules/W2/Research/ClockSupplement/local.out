@@ -1,0 +1,6 @@
+"4.36.0"
+'W2.Research.gap_shift_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Research.kernel_group_dependence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Research.local_shift_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Research.reciprocal_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 584ceedd31c0cdd482fc8b5906948cb1b7c08c83f2c7630a8cd260d91cc4e7ce"

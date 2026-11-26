@@ -1,0 +1,47 @@
+"4.36.0"
+W2.Research.uniformFibrePoincare.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g V T : ι → ℝ) : Prop
+W2.Research.uniformDefect.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m V excess defect : ι → ℝ) : Prop
+W2.Research.uniformTransport.{u_1} {ι : Type u_1} (admitted : ι → Prop) (weightedDerivativeError rate : ι → ℝ) : Prop
+W2.Research.completeMismatch.{u_1} {ι : Type u_1} (admitted : ι → Prop) (coefficient coupling clock : ι → ℝ) : Prop
+W2.Research.dispersionAtOneLoop.{u_1} {ι : Type u_1} (admitted : ι → Prop) (x a p reference measured : ι → ℝ) : Prop
+W2.Research.scoreBounds.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g scoreNorm : ι → ℝ) (power : ℤ) : Prop
+W2.Research.uniformMixedBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m retained correction : ι → ℝ) : Prop
+W2.Research.uniformScoreRoute.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g loss : ι → ℝ) : Prop
+W2.Research.uniformEliminated.{u_1} {ι : Type u_1} (admitted : ι → Prop) (spacing gap : ι → ℝ) : Prop
+W2.Research.polynomialKernelBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (distance norm : ι → ℝ) : Prop
+W2.Research.positiveWeakClock (c : ℝ → ℝ) (xs slope : ℝ) : Prop
+W2.Research.uniformSignedSchur.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m var E C : ι → ℝ) : Prop
+'W2.W2e.loss_of_mixed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.stepBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.calibration_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clockEstimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clock_step_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.product_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.initial_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.deviation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clock_product_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.physical_clock_composes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.physical_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.derivative_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.cubic_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.isotropic_telescopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.intermediate_step_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.sum_squares_running' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.sum_artifacts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.large_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.loss_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.transfer_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.lattice_artifact_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.artifact_geometric_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.small_field_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.small_field_loss_schemeB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.clock_endpoint_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.weak_product_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.fine_scale_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.endpoint_not_determined' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.exp_le_Ddelta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.uniform_score_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_all_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2f.master_small_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 3218d6007e285913cc261975d655b022689cc8fb2ce57a8e94c0ac957a2fd65e"

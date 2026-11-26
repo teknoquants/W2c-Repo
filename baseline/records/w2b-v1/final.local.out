@@ -1,0 +1,44 @@
+"4.36.0"
+W2.Research.uniformFibrePoincare.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g V T : ι → ℝ) : Prop
+W2.Research.uniformDefect.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m V excess defect : ι → ℝ) : Prop
+W2.Research.uniformTransport.{u_1} {ι : Type u_1} (admitted : ι → Prop) (weightedDerivativeError rate : ι → ℝ) : Prop
+W2.Research.completeMismatch.{u_1} {ι : Type u_1} (admitted : ι → Prop) (coefficient coupling clock : ι → ℝ) : Prop
+W2.Research.dispersionAtOneLoop.{u_1} {ι : Type u_1} (admitted : ι → Prop) (x a p reference measured : ι → ℝ) : Prop
+W2.Research.scoreBounds.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g scoreNorm : ι → ℝ) (power : ℤ) : Prop
+W2.Research.uniformMixedBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m retained correction : ι → ℝ) : Prop
+W2.Research.uniformScoreRoute.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g loss : ι → ℝ) : Prop
+W2.Research.uniformEliminated.{u_1} {ι : Type u_1} (admitted : ι → Prop) (spacing gap : ι → ℝ) : Prop
+W2.Research.polynomialKernelBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (distance norm : ι → ℝ) : Prop
+W2.Research.positiveWeakClock (c : ℝ → ℝ) (xs slope : ℝ) : Prop
+W2.Research.uniformSignedSchur.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m var E C : ι → ℝ) : Prop
+'W2.W2b.quadratic_coupling_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.oscillator_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.angle_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.gap_ratio_eq_inv_cos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.free_artifact_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.gaussian_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.oscillator_ground_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.lattice_fourth_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_alias_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axialRatio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_ratio_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalization_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_transport_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.alias_background_is_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.uniform_score_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_all_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axial_harmonic_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalized_defect_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.resolvent_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.raw_schur_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.resolvent_entry_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.alias_energy_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.blocked_symbol_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.isolated_pole_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.shell_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.tail_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.Common.cos_le_quartic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.Common.sin_le_quintic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.free_clock_sinc_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 6284c953f6d0982795de639f231a53bd615434a661013822d271b52e7938f830"

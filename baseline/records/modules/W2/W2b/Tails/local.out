@@ -1,0 +1,4 @@
+"4.36.0"
+'W2.W2b.shell_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.tail_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet a0d5da73e1b8b32eabe9bcbf6b74c0a6d041d2cbc470cf358be66305cc78cff3"

@@ -1,0 +1,16 @@
+"4.36.0"
+'W2.W2b.axis_alias_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axialRatio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_ratio_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalization_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_transport_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.alias_background_is_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.uniform_score_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_all_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axial_harmonic_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalized_defect_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.resolvent_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.raw_schur_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.resolvent_entry_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 884388460358d565ef7778efbe423c1e3e2ed64dab68279bb0aa1c137a9d0c0a"

@@ -1,0 +1,7 @@
+"4.36.0"
+'_private._stdin.0.W2.W2aR.drift_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.gamma_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.drift_gamma_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.drift_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.drift_iff_kappa_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet b09101860683e05a38197bfb0a1f84fecf7c7efd49c7c0d6b3d3b02cb88624b0"

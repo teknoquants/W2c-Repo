@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.W2aR.stepBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.calibration_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clockEstimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 0dcb78482d66d1611b3f3a5e5d3f972f40498b23f94cc00a50b3a2759045d6d8"

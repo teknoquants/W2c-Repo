@@ -1,0 +1,20 @@
+"4.36.0"
+W2.Research.uniformFibrePoincare.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g V T : ι → ℝ) : Prop
+W2.Research.uniformDefect.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m V excess defect : ι → ℝ) : Prop
+W2.Research.uniformTransport.{u_1} {ι : Type u_1} (admitted : ι → Prop) (weightedDerivativeError rate : ι → ℝ) : Prop
+W2.Research.completeMismatch.{u_1} {ι : Type u_1} (admitted : ι → Prop) (coefficient coupling clock : ι → ℝ) : Prop
+W2.Research.dispersionAtOneLoop.{u_1} {ι : Type u_1} (admitted : ι → Prop) (x a p reference measured : ι → ℝ) : Prop
+W2.Research.scoreBounds.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g scoreNorm : ι → ℝ) (power : ℤ) : Prop
+W2.Research.uniformMixedBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m retained correction : ι → ℝ) : Prop
+W2.Research.uniformScoreRoute.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g loss : ι → ℝ) : Prop
+W2.Research.uniformEliminated.{u_1} {ι : Type u_1} (admitted : ι → Prop) (spacing gap : ι → ℝ) : Prop
+W2.Research.polynomialKernelBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (distance norm : ι → ℝ) : Prop
+W2.Research.positiveWeakClock (c : ℝ → ℝ) (xs slope : ℝ) : Prop
+W2.Research.uniformSignedSchur.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m var E C : ι → ℝ) : Prop
+'W2.W2c.midpoint_preserves_product' depends on axioms: [propext]
+'W2.W2c.fibre_dimension_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2c.open_dimension_count' depends on axioms: [propext]
+'W2.W2c.eliminated_gap_of_fibre_poincare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2c.cor_5_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2c.negative_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 33c3a8285204ab699d1f1565315994b87bf6d03f52367c3c7119f14525f8abc2"

@@ -1,0 +1,13 @@
+{
+  "released": [
+    "44 numbered targets | 74 public Lean proofs | 17 private helpers | reference records parsed",
+    "Executed numerical assertions (baseline and six units): 9579",
+    "PYTHON VALIDATION PASSED",
+    "VALIDATION PASSED"
+  ],
+  "paper": [
+    "Targets covered: 44/44",
+    "Checks passed: 189/189",
+    "ALL CHECKS PASSED"
+  ]
+}

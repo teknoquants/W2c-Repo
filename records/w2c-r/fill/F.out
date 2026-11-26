@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.W2cR.trial_gap_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.su2_cut_half_angle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.normalized_trial_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt d9792323ee8874e98e586cc5a4e8ce14fcf30ded2a1df345bcc80b2c4b84b673"

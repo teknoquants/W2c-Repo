@@ -1,0 +1,14 @@
+"4.36.0"
+'W2.W2cR.path_sum_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.box_incidence_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.operator_norm_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.energy_floor_of_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.tangential_rational_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.gaussian_trial_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.physical_gap_infimum_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.certificate_without_enumeration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.certificate_improved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.nested_grid_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.certificate_dimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.certificate_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt 661af00bf06cdfe2bb98ee2e67f6108843c73591432a6207dbabba228894d061"

@@ -1,0 +1,7 @@
+# Materials and provenance
+
+The Word file in this directory is the earlier W2c-R exercise supplied with the request. Its original bytes are preserved. The ten tagged Lean controls in it supplied the earlier canonical annex, including the three W2cR modules. The rebuilt prompt is the later six-unit specification dated 25 November 2026 shown in this conversation. The reconstructed target register, mathematical statements and source notes are in ../docs/targets.json.
+
+The visible title, §§1–4, unit introductions, targets, specification of computations, formal policy, and late pages on status and hand-off were used. In the supplied sequence the opening of B.3 is followed by C.1. Printed pages 15–16 with the full B.3–B.8 text were unavailable. Those six headings and statements are reconstructed from the visible numerical/formal specification, dependencies, references to Unit B and the earlier attached exercise. The raw screenshot files and a complete rebuilt master document were unavailable to include as files.
+
+The upstream snapshot is ../baseline, commit bdca2e63999103dbfb4afb20af0b3138d1797a89 of https://github.com/teknoquants/W2-Exercise-and-Lean. Its original exercise, paper PDF, Lean declarations, validation suites and archive are retained. The companion paper suite was also extracted unchanged into ../baseline-paper. Historical files retain their supplied notices and formatting. The new materials are governed by ../LICENSE.

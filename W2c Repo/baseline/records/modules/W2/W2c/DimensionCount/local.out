@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.W2c.midpoint_preserves_product' depends on axioms: [propext]
+'W2.W2c.fibre_dimension_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2c.open_dimension_count' depends on axioms: [propext]
+"W2 packet 5794ca180b33e7707b7f308fa9405edf968080724ef1e17bf94cd53075eab2f7"

@@ -1,0 +1,7 @@
+"4.36.0"
+'W2.W2b.quadratic_coupling_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.oscillator_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.angle_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.gap_ratio_eq_inv_cos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.free_artifact_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 1205903b4f42b94f3977529de68bf31bd6bb3948d74d87d71ca8a8202409373b"

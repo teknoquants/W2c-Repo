@@ -1,0 +1,5 @@
+"4.36.0"
+'_private._stdin.0.W2.Common.cos_le_quartic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.Common.sin_le_quintic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Common.free_clock_sinc_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet e0cd02d3eed55ae41a5d23caa5bcfe7ea57ee4a113bf90654013c953c6191d09"

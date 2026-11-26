@@ -1,0 +1,11 @@
+"4.36.0"
+'W2.W2aR.stepBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.calibration_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.clockEstimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.intermediate_step_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.sum_squares_running' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.sum_artifacts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.large_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'_private._stdin.0.W2.W2aR.loss_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2aR.transfer_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 5ce6a185295def7e0c0b6bee960c9b1b8d6caf2a30c323de92c2b5bd12b92585"

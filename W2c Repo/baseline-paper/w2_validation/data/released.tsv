@@ -1,0 +1,75 @@
+# declaration	target label	code	formal scope or inputs
+W2.Common.A_enclosure	W2a Definition 1 / §8, SU(2) and SU(3)	L1	-
+W2.Common.free_clock_sinc_bounds	W2a-R.5, W2b.10	L1	-
+W2.Framework.schur_criterion	W2e.3	L1	mathematical hypotheses in W2/Framework/Schur.lean
+W2.Framework.uniform_score_lift	W2e.1, W2e.2	L1	mathematical hypotheses in W2/Framework/Schur.lean
+W2.Framework.schur_all_retained	W2b.6, W2e.3, W2e.4, W2f.1	L1	mathematical hypotheses in W2/Framework/Schur.lean
+W2.Research.gap_shift_invariant	W2a-R.4, W2b.10	L1	mathematical hypotheses in W2/Research/ClockSupplement.lean
+W2.Research.kernel_group_dependence	W2a-R.8	L1	mathematical hypotheses in W2/Research/ClockSupplement.lean
+W2.Research.local_shift_derivative	W2a-R.9	L1	mathematical hypotheses in W2/Research/ClockSupplement.lean
+W2.Research.reciprocal_remainder	W2a-R.10	L1	mathematical hypotheses in W2/Research/ClockSupplement.lean
+W2.W2aR.clock_step_bound	W2a-R.1	L1	-
+W2.W2aR.clock_product_telescope	W2a-R.2	L1	-
+W2.W2aR.physical_clock_composes	W2a-R.2	L2	DispersionHyp; ClockRegularityHyp
+W2.W2aR.isotropic_telescopes	W2a-R.2	L2	ClockRegularityHyp (physicalRatio as defined)
+W2.W2aR.drift_gamma_identity	W2a-R.3	L1	-
+W2.W2aR.drift_asymptotic	W2a-R.3	L1	-
+W2.W2aR.drift_iff_kappa_ne_zero	W2a-R.3	L1	-
+W2.W2aR.stepBounds	Shared proof helper	L1	mathematical hypotheses in W2/W2aR/Estimates.lean
+W2.W2aR.calibration_floor	Shared proof helper	L1	mathematical hypotheses in W2/W2aR/Estimates.lean
+W2.W2aR.clockEstimate	Shared proof helper	L1	mathematical hypotheses in W2/W2aR/Estimates.lean
+W2.W2aR.first_order_compat	W2a-R.3	L1	-
+W2.W2aR.no_regular_clock	W2a-R.3	L1	-
+W2.W2aR.step_error_schemeA	W2a-R.1	L1	-
+W2.W2aR.step_error_schemeB	W2a-R.1, W2f.3	L1	-
+W2.W2aR.intermediate_step_count	W2f.5	L1	-
+W2.W2aR.transfer_bound	W2a Theorem 12	L2	RunningBoundHyp; explicit per-step/endpoint assumptions
+W2.W2aR.time_unit_scaling	W2a Proposition 1	L1	-
+W2.W2aR.kinetic_ratio_clock	W2f.2	L1	-
+W2.W2b.free_artifact_constant	W2b.3	L1	mathematical hypotheses in W2/W2b/Artifact.lean
+W2.W2b.quadratic_coupling_cancel	W2b.1	L1	mathematical hypotheses in W2/W2b/GapRatio.lean
+W2.W2b.oscillator_variance	W2b.1	L1	mathematical hypotheses in W2/W2b/GapRatio.lean
+W2.W2b.angle_bounds	W2b.2	L1	mathematical hypotheses in W2/W2b/GapRatio.lean
+W2.W2b.gap_ratio_eq_inv_cos	W2b.2	L1	mathematical hypotheses in W2/W2b/GapRatio.lean
+W2.W2b.gaussian_derivative	W2b.1	L1	mathematical hypotheses in W2/W2b/Harmonics.lean
+W2.W2b.oscillator_ground_equation	W2b.1	L1	mathematical hypotheses in W2/W2b/Harmonics.lean
+W2.W2b.lattice_fourth_derivative	W2b.11	L1	mathematical hypotheses in W2/W2b/Harmonics.lean
+W2.W2b.axis_alias_reduction	W2b.4	L1	mathematical hypotheses in W2/W2b/Normalization.lean
+W2.W2b.axialRatio_zero	W2b.4	L1	mathematical hypotheses in W2/W2b/Normalization.lean
+W2.W2b.axis_ratio_slope	W2b.4	L1	mathematical hypotheses in W2/W2b/Normalization.lean
+W2.W2b.normalization_scalar	W2b.5	L1	mathematical hypotheses in W2/W2b/Normalization.lean
+W2.W2b.axis_transport_slope	W2b.5, W2d.1	L1	mathematical hypotheses in W2/W2b/Normalization.lean
+W2.W2b.alias_background_is_scalar	W2b.4	L1	mathematical hypotheses in W2/W2b/Normalization.lean
+W2.W2b.axial_harmonic_mean	W2b.6, W2d.2	L1	mathematical hypotheses in W2/W2b/SchurBenchmark.lean
+W2.W2b.normalized_defect_slope	W2d.2	L1	mathematical hypotheses in W2/W2b/SchurBenchmark.lean
+W2.W2b.resolvent_remainder	W2b.6	L1	mathematical hypotheses in W2/W2b/SchurBenchmark.lean
+W2.W2b.raw_schur_limit	W2b.6, W2e.3	L1	mathematical hypotheses in W2/W2b/SchurBenchmark.lean
+W2.W2b.resolvent_entry_identity	W2b.6	L1	mathematical hypotheses in W2/W2b/SchurBenchmark.lean
+W2.W2b.alias_energy_separation	W2a-R.6, W2b.9	L1	mathematical hypotheses in W2/W2b/Symbol.lean
+W2.W2b.blocked_symbol_speed	W2a-R.6, W2b.9, W2b.11	L1	mathematical hypotheses in W2/W2b/Symbol.lean
+W2.W2b.isolated_pole_limit	W2a-R.6, W2b.9	L1	mathematical hypotheses in W2/W2b/Symbol.lean
+W2.W2b.shell_bound	W2b.7, W2b.8	L1	mathematical hypotheses in W2/W2b/Tails.lean
+W2.W2b.tail_obstruction	W2b.8	L1	mathematical hypotheses in W2/W2b/Tails.lean
+W2.W2c.midpoint_preserves_product	W2c.1	L1	mathematical hypotheses in W2/W2c/DimensionCount.lean
+W2.W2c.fibre_dimension_count	W2c.2	L1	mathematical hypotheses in W2/W2c/DimensionCount.lean
+W2.W2c.open_dimension_count	W2c.2	L1	mathematical hypotheses in W2/W2c/DimensionCount.lean
+W2.W2c.eliminated_gap_of_fibre_poincare	W2c.4	L2	physical estimate or trajectory hypotheses as stated in W2/W2c/EliminatedGap.lean
+W2.W2c.cor_5_separation	W2c.5	L2	physical estimate or trajectory hypotheses as stated in W2/W2c/EliminatedGap.lean
+W2.W2c.negative_control	W2c.6	L1	mathematical hypotheses in W2/W2c/EliminatedGap.lean
+W2.W2d.lattice_artifact_decay	W2c.5, W2d.5	L2	physical estimate or trajectory hypotheses as stated in W2/W2d/Artifact.lean
+W2.W2d.artifact_geometric_sum	W2d.6, W2f.4	L1	mathematical hypotheses in W2/W2d/Artifact.lean
+W2.W2d.free_Ca_matches	W2b.3	L1	mathematical hypotheses in W2/W2d/FreeCheck.lean
+W2.W2d.retained_of_defect	W2d.3	L2	physical estimate or trajectory hypotheses as stated in W2/W2d/Retained.lean
+W2.W2d.no_quadratic_term	W2d.4	L1	mathematical hypotheses in W2/W2d/Retained.lean
+W2.W2d.upward_shift_witness	W2a-R.7, W2d.7	L1	mathematical hypotheses in W2/W2d/Retained.lean
+W2.W2d.speed_from_squared_gap	W2d.7	L1	mathematical hypotheses in W2/W2d/Retained.lean
+W2.W2e.resolvent_ratio_clock_invariant	W2e.5	L1	mathematical hypotheses in W2/W2e/ClockInvariance.lean
+W2.W2e.loss_of_mixed_bound	W2e.4	L1	mathematical hypotheses in W2/W2e/Loss.lean
+W2.W2f.small_field_loss	W2f.1	L2	physical estimate or trajectory hypotheses as stated in W2/W2f/Assembly.lean
+W2.W2f.small_field_loss_schemeB	W2f.3	L2	physical estimate or trajectory hypotheses as stated in W2/W2f/Assembly.lean
+W2.W2f.clock_endpoint_factor	W2f.2	L2	physical estimate or trajectory hypotheses as stated in W2/W2f/Assembly.lean
+W2.W2f.weak_product_floor	W2f.4, W2f.5	L2	physical estimate or trajectory hypotheses as stated in W2/W2f/Assembly.lean
+W2.W2f.fine_scale_gap	W2f.5	L2	physical estimate or trajectory hypotheses as stated in W2/W2f/Assembly.lean
+W2.W2f.endpoint_not_determined	W2f.5	L1	mathematical hypotheses in W2/W2f/Assembly.lean
+W2.W2f.exp_le_Ddelta	W2f.4	L1	mathematical hypotheses in W2/W2f/Assembly.lean
+W2.W2f.master_small_field	W2f.1	L2	physical estimate or trajectory hypotheses as stated in W2/W2f/Master.lean

@@ -1,0 +1,378 @@
+[
+  {
+    "target": "D.1",
+    "check": "typed floor has positive constant when the loss is below one"
+  },
+  {
+    "target": "D.2",
+    "check": "fixed-box loss can shrink with a box-dependent range"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 1"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 2"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 3"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 4"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 5"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 6"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 7"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 8"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 9"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 10"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 11"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 12"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 13"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 14"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 15"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 16"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 17"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 18"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 19"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 20"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 21"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 22"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 23"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 24"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 25"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 26"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 27"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 28"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 29"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 30"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 31"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 32"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 33"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 34"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 35"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 36"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 37"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 38"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 39"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 40"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 41"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 42"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 43"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 44"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 45"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 46"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 47"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 48"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 49"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 50"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 51"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 52"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 53"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 54"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 55"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 56"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 57"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 58"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 59"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 60"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 61"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 62"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 63"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 64"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 65"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 66"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 67"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 68"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 69"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 70"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 71"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 72"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 73"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 74"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 75"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 76"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 77"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 78"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 79"
+  },
+  {
+    "target": "D.3",
+    "check": "relative matrix comparison 80"
+  },
+  {
+    "target": "D.3",
+    "check": "marginal covariance subtracts from precision"
+  },
+  {
+    "target": "D.3",
+    "check": "marginal covariance subtracts from precision"
+  },
+  {
+    "target": "D.3",
+    "check": "marginal covariance subtracts from precision"
+  },
+  {
+    "target": "D.4",
+    "check": "Gaussian inverse Hessian covariance"
+  },
+  {
+    "target": "D.5",
+    "check": "horizontal sectional correction sign"
+  },
+  {
+    "target": "D.6",
+    "check": "two directional limits of the embedded multiplier"
+  },
+  {
+    "target": "D.6",
+    "check": "finite shell fit and absolute rows"
+  },
+  {
+    "target": "D.7",
+    "check": "block tensorization constant at a test contraction"
+  },
+  {
+    "target": "D.8",
+    "check": "outward-rounded pinned vacuum and curvature at 0.02"
+  },
+  {
+    "target": "D.8",
+    "check": "outward-rounded pinned vacuum and curvature at 0.05"
+  },
+  {
+    "target": "D.8",
+    "check": "outward-rounded pinned vacuum and curvature at 0.1"
+  },
+  {
+    "target": "D.8",
+    "check": "outward-rounded pinned vacuum and curvature at 0.16666666666666666"
+  }
+]

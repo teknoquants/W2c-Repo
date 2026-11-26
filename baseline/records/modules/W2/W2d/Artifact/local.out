@@ -1,0 +1,4 @@
+"4.36.0"
+'W2.W2d.lattice_artifact_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.artifact_geometric_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 4f4cc2c9e27378b0dd9b2fcc40c4dc07fdc47c598f5bdca321f8c89b27b99089"

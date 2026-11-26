@@ -1,0 +1,10 @@
+"4.36.0"
+'W2.W2cR.fibre_poincare_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.pointwise_eliminated_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.uniform_le_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.uniform_eliminated_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.herbst_tail_of_lsi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.separation_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.scalar_resolvent_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.small_field_loss_of_hessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt dd940e9578428f3a7ddec755e950ec093deb53b14925517f5aa909c5a412acd5"

@@ -1,0 +1,8 @@
+"4.36.0"
+'W2.W2b.axis_alias_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axialRatio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_ratio_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalization_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_transport_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.alias_background_is_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet fb318699aa4f87000c3415628129858534a7d131c9afdc5ffadb47cd4b42c18f"

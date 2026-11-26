@@ -1,0 +1,13 @@
+"4.36.0"
+'W2.W2cR.commutator_relative_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.precision_relative_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.homogeneous_chaos_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.single_mode_attains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.quadraticCompression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.mixed_quadratic_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.joint_quadratic_below_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.quadratic_colour_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.orthogonal_colour_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.third_chaos_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.conditional_block_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt 367bb37133c203067954af87e9d0df8235fe1cd426cdd6ed7ce151876e8130f3"

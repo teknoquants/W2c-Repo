@@ -1,0 +1,40 @@
+"4.36.0"
+W2.Research.uniformFibrePoincare.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g V T : ι → ℝ) : Prop
+W2.Research.uniformDefect.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m V excess defect : ι → ℝ) : Prop
+W2.Research.uniformTransport.{u_1} {ι : Type u_1} (admitted : ι → Prop) (weightedDerivativeError rate : ι → ℝ) : Prop
+W2.Research.completeMismatch.{u_1} {ι : Type u_1} (admitted : ι → Prop) (coefficient coupling clock : ι → ℝ) : Prop
+W2.Research.dispersionAtOneLoop.{u_1} {ι : Type u_1} (admitted : ι → Prop) (x a p reference measured : ι → ℝ) : Prop
+W2.Research.scoreBounds.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g scoreNorm : ι → ℝ) (power : ℤ) : Prop
+W2.Research.uniformMixedBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m retained correction : ι → ℝ) : Prop
+W2.Research.uniformScoreRoute.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g loss : ι → ℝ) : Prop
+W2.Research.uniformEliminated.{u_1} {ι : Type u_1} (admitted : ι → Prop) (spacing gap : ι → ℝ) : Prop
+W2.Research.polynomialKernelBound.{u_1} {ι : Type u_1} (admitted : ι → Prop) (distance norm : ι → ℝ) : Prop
+W2.Research.positiveWeakClock (c : ℝ → ℝ) (xs slope : ℝ) : Prop
+W2.Research.uniformSignedSchur.{u_1} {ι : Type u_1} (admitted : ι → Prop) (g a m var E C : ι → ℝ) : Prop
+'W2.W2d.lattice_artifact_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.artifact_geometric_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.quadratic_coupling_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.oscillator_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.angle_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.gap_ratio_eq_inv_cos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.free_artifact_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_alias_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axialRatio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_ratio_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalization_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axis_transport_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.alias_background_is_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_criterion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.uniform_score_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.Framework.schur_all_retained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.axial_harmonic_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.normalized_defect_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.resolvent_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.raw_schur_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.resolvent_entry_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.free_Ca_matches' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.retained_of_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.no_quadratic_term' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.upward_shift_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2d.speed_from_squared_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 0739fb79df7fc70222db2a5bb762b084e051c231800b70ce685c715205874fa6"

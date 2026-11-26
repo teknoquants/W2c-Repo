@@ -1,0 +1,270 @@
+[
+  {
+    "target": "E.1",
+    "check": "variance integral of the scalar curvature profile"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.2",
+    "check": "uniform Poincare transfer"
+  },
+  {
+    "target": "E.3",
+    "check": "direction and energy conversion"
+  },
+  {
+    "target": "E.4",
+    "check": "collapse quotient s=8"
+  },
+  {
+    "target": "E.4",
+    "check": "collapse quotient s=16"
+  },
+  {
+    "target": "E.4",
+    "check": "collapse quotient s=32"
+  },
+  {
+    "target": "E.4",
+    "check": "collapse quotient s=64"
+  },
+  {
+    "target": "E.5",
+    "check": "Herbst exponential completion"
+  },
+  {
+    "target": "E.6",
+    "check": "weak running separation n=0"
+  },
+  {
+    "target": "E.6",
+    "check": "weak running separation n=1"
+  },
+  {
+    "target": "E.6",
+    "check": "weak running separation n=2"
+  },
+  {
+    "target": "E.6",
+    "check": "weak running separation n=4"
+  },
+  {
+    "target": "E.6",
+    "check": "weak running separation n=8"
+  },
+  {
+    "target": "E.7",
+    "check": "positive resolvent margin in W2 allowance"
+  },
+  {
+    "target": "E.7",
+    "check": "positive resolvent margin in W2 allowance"
+  }
+]

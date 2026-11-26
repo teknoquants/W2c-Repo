@@ -1,0 +1,376 @@
+{
+  "version": "4.36.0",
+  "source_sha256": "7569b2d377ac87d7a480fd4dc907861d73365b228d9c66fd4b9f54a99821f725",
+  "transcript_sha256": "ced8da40b351fcd516d21da5351e57c3774f50952ae1d1f11eb61fe2f07b4c3e",
+  "declarations": {
+    "W2.W2cR.gaussian_chaos_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.gaussian_chaos_gap_pos": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.hessian_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.hessian_floor_matrix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.BakryEmery": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.HessianLowerBoundHyp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.fibre_poincare_of_hessian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.eliminated_gap_small_field": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.freeModel_curv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.freeModelHyp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.freeModel_bakryEmery": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.curvature_excludes_collapse": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.separation_explicit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.AdmittedIndex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.boxVertices": [],
+    "W2.W2cR.boxLinks": [],
+    "W2.W2cR.midpoint_preserves_product": [
+      "propext"
+    ],
+    "W2.W2cR.midpoint_tangent_metric": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.stabilizer_propagates": [
+      "propext"
+    ],
+    "W2.W2cR.rectangular_quotient_count": [
+      "propext"
+    ],
+    "W2.W2cR.cube_from_rectangular": [
+      "propext"
+    ],
+    "W2.W2cR.ricci_coefficient_su": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.midpoint_ricci_half": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.oneill_nonneg_term": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.two_atom_variance": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.zero_energy_obstructs_poincare": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.integrated_of_pointwise": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.pointwise_of_integrated_cont": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.commutator_relative_obstruction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.precision_relative_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.homogeneous_chaos_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.single_mode_attains": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.quadraticCompression": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.mixed_quadratic_minimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.joint_quadratic_below_double": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.quadratic_colour_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.orthogonal_colour_contraction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.third_chaos_exclusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.conditional_block_monotone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.path_sum_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.box_incidence_estimate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.operator_norm_twelve": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.energy_floor_of_norm": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.tangential_rational_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.gaussian_trial_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.physical_gap_infimum_bounds": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.certificate_without_enumeration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.certificate_improved": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.nested_grid_minimum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.certificate_dimension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.certificate_three": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.fixed_volume_loss": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.marginal_schur_square": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.covariance_subtraction_strict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.BlockMixingHyp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.uniform_of_block_mixing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.fibre_poincare_reindex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.pointwise_eliminated_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.uniform_le_pointwise": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.uniform_eliminated_reindex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.herbst_tail_of_lsi": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.separation_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.scalar_resolvent_margin": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.small_field_loss_of_hessian": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.trial_gap_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.su2_cut_half_angle": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.normalized_trial_interval": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.LocalBoundaryControl": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.conditional_form_comparison": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.bloch_scalar_comparison": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.FixedBoxHessianRemainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.MarginalCoercivity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.WittenRemainder": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.HorizontalDensityFloor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.pinned_energy_barrier": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.radial_curvature_floor": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "W2.W2cR.assembly_with_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

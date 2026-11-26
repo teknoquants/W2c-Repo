@@ -1,0 +1,9 @@
+PASS Common_final | 4 proofs, including dependencies
+PASS W2aR_final | 41 proofs, including dependencies
+PASS W2b_final | 30 proofs, including dependencies
+PASS W2c_final | 6 proofs, including dependencies
+PASS W2d_final | 26 proofs, including dependencies
+PASS W2e_final | 5 proofs, including dependencies
+PASS W2f_final | 33 proofs, including dependencies
+PASS W2_final | 91 proofs, including dependencies
+PASS prelude | 26 prelude declarations

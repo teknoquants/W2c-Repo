@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.W2b.alias_energy_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.blocked_symbol_speed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.isolated_pole_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet aa47878e373a0a07b619aa563045df1981b0882f7cb0f68d983a0d0ddef696b8"

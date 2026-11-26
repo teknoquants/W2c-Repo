@@ -1,0 +1,5 @@
+"4.36.0"
+'W2.W2b.gaussian_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.oscillator_ground_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2b.lattice_fourth_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2 packet 7970d9bd128fa267550e6de875d5f3c936c19cf716d173f88ea13bdaf067b9c9"

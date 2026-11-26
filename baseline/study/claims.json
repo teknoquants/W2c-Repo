@@ -1,0 +1,642 @@
+{
+  "specification_sha256": "4d59a0ca79806e686f1d49b774947b7a583c298a091042cadebdb52dc477dd86",
+  "claims": [
+    {
+      "id": "W2a-R.1",
+      "title": "Full and truncated calibrations",
+      "kind": "Proposition",
+      "statement_sha256": "de6f059a6c9663ef0af15873a23ae0e3d4d9d0e2856c0486dcb5242462dc736a",
+      "status": "Conditional proof",
+      "proof": "Write $x=g^2$, $y=g_{k+1}^2$, $A_+=A+Bx_*$ and $Q=(1-A_+x_*)^{-1}$. The running inequality gives $y\\le Qx$ and $0\\le y-x\\le A_+Qx^2$. If $u(x)=1+sx+e(x)$ with $|e(x)|\\le Mx^2$, subtract its values at $x,y$ and divide by $u(x)\\ge d=1-|s|x_*-Mx_*^2>0$. This gives $C_\\xi=(|s|A_+Q+M(1+Q^2))/d$. The reciprocal calibration transports exactly in Scheme A, so $M_{\\mathrm{match}}=0$. In Scheme B the linear calibration has no Taylor remainder and the smallness assumptions give $C_\\xi\\le 6A|c_1|$. Comparison to the full reciprocal costs at most $M_c(1+Q^2)/d$ with $s=-c_1,M=M_c$. Expanding the product of two factors adds the cross term $C_\\xi M_{\\mathrm{match}}x_*^2$ to the coefficient. These are inequalities conditional on the specified uniform inputs.",
+      "lean": [
+        "W2.W2aR.step_error_schemeA",
+        "W2.W2aR.step_error_schemeB",
+        "W2.W2aR.clock_step_bound"
+      ],
+      "inputs": [
+        "W2.Common.ClockRegularityHyp"
+      ]
+    },
+    {
+      "id": "W2a-R.2",
+      "title": "Physical time transport along a weak trajectory",
+      "kind": "Proposition",
+      "statement_sha256": "c06b22b4c85b9f1038befd07497403ee00558862ff552bc1272042f0fe4e7f52",
+      "status": "Conditional proof",
+      "proof": "Time covariance and speed preservation give $F_k=c(x_k)/c(x_{k+1})$. All intermediate factors cancel, including for the empty product. The reciprocal-running lower decrement makes $x_0\\to0$ at fixed $x_J$, uniformly under the stated trajectory bounds. Since $c(0)=1$, the product tends to $1/c(x_J)$. With the stated local expansion and cubic remainder, subtract successive values to obtain the first correction $-c_1 A x_k^2$. The physical identity presupposes a common spectral branch and the named time-covariance hypothesis.",
+      "lean": [
+        "W2.W2aR.isotropic_telescopes",
+        "W2.W2aR.physical_clock_composes",
+        "W2.W2aR.clock_product_telescope"
+      ],
+      "inputs": [
+        "W2.Common.DispersionHyp",
+        "W2.Common.ClockRegularityHyp",
+        "W2.Common.cubicClockExpansion"
+      ]
+    },
+    {
+      "id": "W2a-R.3",
+      "title": "Criterion for a drifting clock multiplier",
+      "kind": "Corollary",
+      "statement_sha256": "1ed896f21c22fb0f9f959d2520637c4ac5fcd5f250fa64a238cec0879777e0d5",
+      "status": "Conditional proof",
+      "proof": "For $x_j=(b+Aj)^{-1}$ and positive factors, the product of $1+\\kappa x_j$ is a ratio of two rising products. Applying the gamma recurrence term by term and taking its asymptotic ratio gives a constant times $K^{\\kappa/A}$. A nonzero $\\kappa$ therefore changes the power. The physical clock in W2a-R.2 telescopes. At coefficient level regular time covariance would require $(1-\\rho)s=\\kappa$ with $\\rho=1$. The optional local Wilson response is one possible distinct reading and its group-specific slope is undetermined.",
+      "lean": [
+        "W2.W2aR.drift_gamma_identity",
+        "W2.W2aR.drift_asymptotic",
+        "W2.W2aR.drift_iff_kappa_ne_zero",
+        "W2.W2aR.no_regular_clock",
+        "W2.W2aR.first_order_compat"
+      ],
+      "inputs": [
+        "W2.Common.DispersionHyp"
+      ]
+    },
+    {
+      "id": "W2a-R.4",
+      "title": "A sector-resolved finite-volume clock",
+      "kind": "Definition",
+      "statement_sha256": "49c98aced2e5fb34c05aa297ed0ad947faf0c49ecc11a584e6b7feee344d29e5",
+      "status": "Definition",
+      "proof": "Choose a common excitation branch at rest and at the first axial momentum, orthogonal to the vacuum when at rest. In the torus gauge theory use the Gauss-law sector with trivial characters for the three centre actions. With $\\Delta(p)=E(p)-E_0$, take the positive square root of the difference of squared gaps divided by $|p_1|^2$ whenever this quotient is positive. Adding a scalar to every energy cancels inside each difference, as the Lean identity shows. Branch identification is a physical input.",
+      "lean": [
+        "W2.Research.gap_shift_invariant"
+      ],
+      "inputs": [
+        "W2.Common.boxClockSq"
+      ]
+    },
+    {
+      "id": "W2a-R.5",
+      "title": "Finite-volume clock error",
+      "kind": "Lemma",
+      "statement_sha256": "c048d038c453d31d8edbb4bf4806ce62c1c2109fc0573edd5581813ee573dd58",
+      "status": "Free proof; interacting conjecture",
+      "proof": "For the prescribed free branch the rest mass cancels in the difference of squared gaps. With $t=\\pi/L$ the positive speed is $\\sin(t)/t$. Integrating the elementary signed sine Taylor bounds gives $0\\le c_L-1+t^2/6\\le t^4/120$ for $L\\ge2$. For the interacting case one needs common $U,V\\ge0$ chosen before $L$ and $x$, such that the absolute error is at most $(U+Vx^2)L^{-2}$ throughout the weak interval. Neither the free proof nor the four box values establishes this estimate.",
+      "lean": [
+        "W2.Common.free_clock_sinc_bounds"
+      ],
+      "inputs": [
+        "W2.Common.finiteVolumeBound"
+      ]
+    },
+    {
+      "id": "W2a-R.6",
+      "title": "Lowest pole under the free two-link block",
+      "kind": "Proposition",
+      "statement_sha256": "5a00a6aabf3e2e015b538b497035aa6cbf10d4c72f0b49237a4332e110df447b",
+      "status": "Free proof",
+      "proof": "The two-link factor is nonzero on the retained transverse polarization near zero momentum. Any switched low component replaces a squared sine by a squared cosine and raises the energy for $|ap_j/2|<\\pi/4$. In inherited time the finite sum of exponentials, divided by its lowest exponential, tends to the positive lowest residue. The pole therefore has the fine-lattice energy and its phase speed tends to one with quadratic error. W2b.9 gives the normalization and the zone-boundary exception. The proof uses the free spectral representation in the physical clock paper, Proposition 5.1.",
+      "lean": [
+        "W2.W2b.alias_energy_separation",
+        "W2.W2b.isolated_pole_limit",
+        "W2.W2b.blocked_symbol_speed"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2a-R.7",
+      "title": "One-loop preservation of physical dispersion",
+      "kind": "Theorem",
+      "statement_sha256": "51a3bbb11614f76da2582f3d0924c869b48a8db10992db50a2f0d334a8bba358",
+      "status": "Open conjecture",
+      "proof": "No interacting two-time estimate is supplied. In particular multiplying a positive Hamiltonian by $1+x$ leaves its eigenvectors and vacuum unchanged but scales every gap upward by $1+x$. Its squared speed changes at first order by $2x+x^2$, while a lower form bound can still hold. To close the target one must identify the same centre-neutral branch and bound its moving-minus-rest squared gaps on both sides, uniformly through one loop. The Lean witness verifies the obstruction to the proposed deduction.",
+      "lean": [
+        "W2.W2d.upward_shift_witness"
+      ],
+      "inputs": [
+        "W2.Research.dispersionAtOneLoop"
+      ]
+    },
+    {
+      "id": "W2a-R.8",
+      "title": "Wilson coefficient in the B2 convention",
+      "kind": "Theorem",
+      "statement_sha256": "02d9664c0f232753a8fc52bbf2616883d28dfb2e4c354d286173433cdf356969",
+      "status": "Analytic reduction and numerical quadrature",
+      "proof": "The reduced Wilson kernel in the clock paper §§6–7 gives $c_1(N)=-(5I_1+4I_2)N/72+I_1/(6N)$. Collecting the colour factors over a common denominator proves this identity symbolically. Quadrature of the two published reduced integrals, cross-checked using the independent Bessel representation, gives $-0.167509851556$ for SU(2) and $-0.334167632989$ for SU(3). The absolute discrepancies from the printed Hamiltonian-limit pairs are $5.0148\\times10^{-5}$ and $6.2367\\times10^{-5}$. They exceed pair-rounding alone. The field-theoretic kernel derivation is cited and the numerical quadrature is reproducible in Python.",
+      "lean": [
+        "W2.Research.kernel_group_dependence"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2a-R.9",
+      "title": "Optional shift from Wilson truncation",
+      "kind": "Proposition",
+      "statement_sha256": "a4f6e376c93fe5d5ecee342bab097f463df031671708b2e3171a27c7a0e8cad8",
+      "status": "Conditional identity; group values open",
+      "proof": "For electric and magnetic slopes the square root of their ratio has linear coefficient $(\\kappa_E-\\kappa_B)/2$. In the stated truncation convention the discrepancy relative to the physical response contributes $-\\Delta c_{\\mathrm{irr}}$. Differentiating the normalized product gives exactly this slope because the physical multiplier has value one and zero first derivative. Numerical SU(2) and SU(3) shifts would need the omitted irrelevant-operator responses. The free W2b and Scheme A comparisons do not require these values.",
+      "lean": [
+        "W2.Research.local_shift_derivative"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2a-R.10",
+      "title": "Regularity of the interacting reference clock",
+      "kind": "Theorem",
+      "statement_sha256": "b598c4653795d63ca8f2544842cf81b7e556fb75a9e094d3cfb5470374c61203",
+      "status": "Open conjecture",
+      "proof": "A normalized positive $C^2$ branch with a uniform quadratic remainder throughout the weak interval is the missing assertion. If $c=1+c_1x+e$, $|e|\\le M x^2$, and $c\\ge d>0$, then $1-c(1-c_1x)=c_1^2x^2-e(1-c_1x)$. Division by $c$ proves the inverse-clock remainder with constant $(c_1^2+(1+|c_1|x_*)M)/d$. This last inequality is checked. Neither it nor a Taylor fit constructs a nonperturbative clock or its strong-coupling endpoint.",
+      "lean": [
+        "W2.Research.reciprocal_remainder"
+      ],
+      "inputs": [
+        "W2.Research.positiveWeakClock",
+        "W2.Common.ClockRegularityHyp"
+      ]
+    },
+    {
+      "id": "W2b.1",
+      "title": "Transverse Gaussian vacuum",
+      "kind": "Proposition",
+      "statement_sha256": "1e7c29e5732c03f06bbd2fbc3d14b497ad1044ecca066c8741664206dea51d08",
+      "status": "Free proof",
+      "proof": "Use $U=\\exp(gA)$, $E\\mapsto E/g$ on the linearized phase space. The quadratic electric and magnetic terms both lose their factors of $g$. On the Gauss-law quotient diagonalize $K=d^*d$ on its positive subspace. At frequency $\\omega>0$, differentiating $\\exp(-\\omega x^2/2)$ twice gives the oscillator energy $\\omega/2$. Squaring and normalizing the wave function gives position variance $1/(2\\omega)$. Functional calculus restores $K^{-1/2}/2$. Remove periodic harmonic coordinates before inversion. The finite computations use one Maxwell component and the linear Gaussian sector.",
+      "lean": [
+        "W2.W2b.quadratic_coupling_cancel",
+        "W2.W2b.gaussian_derivative",
+        "W2.W2b.oscillator_ground_equation",
+        "W2.W2b.oscillator_variance"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2b.2",
+      "title": "Periodic and open transverse gaps",
+      "kind": "Proposition",
+      "statement_sha256": "99790deb4b59c242d61a0b289f5e0b01023b4bb8d1dba6d3aeb74af48139ce20",
+      "status": "Free proof",
+      "proof": "The periodic difference symbol is $e^{iaq_j}-1$ and its transverse singular value is $2\\sqrt{\\sum_j\\sin^2(aq_j/2)}/a$. The smallest positive value occurs on an axial first momentum. With $t=\\pi/L$ the two physical gaps are $2\\sin(t)/a$ and $\\sin(2t)/a$. Both are positive for even $L\\ge4$ and the double-angle formula gives $\\sec t$. For the open cubical path complex with $L$ links and $L+1$ vertices per axis, the first free transverse mode requires two nonzero path indices. Its gap is $2\\sqrt{2}\\sin(\\pi/(2(L+1)))/a$. Compare to the coarse complex with $L/2$ links and spacing $2a$. The exact periodic ratio in Lean begins from the two explicit gap formulas. The optional full operator diagonalization is analytic and numerical here.",
+      "lean": [
+        "W2.W2b.gap_ratio_eq_inv_cos",
+        "W2.W2b.angle_bounds"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2b.3",
+      "title": "Fourth-order remainder of the periodic gap ratio",
+      "kind": "Corollary",
+      "statement_sha256": "24a42b1df18e878713c56a8e21ac9f78c8d81cf4bccf07e81e2ffb28b71073b0",
+      "status": "Free proof",
+      "proof": "Put $t=\\pi/L$, $h=\\cos t$ and $am=\\sin(2t)$ for the coarse gap $m$. The error $1/h-1-\\sin^2(2t)/8$ factors as $(1-h)^2(2+2h+2h^2+h^3)/(2h)$. On this range $1/2\\le h\\le1$, the last factor is at most seven and $1-h\\le\\sin^2(2t)$. Consequently the error lies between zero and $7(am)^4$. This proves the coefficient $1/8$ with a finite-box remainder.",
+      "lean": [
+        "W2.W2b.free_artifact_constant",
+        "W2.W2d.free_Ca_matches"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2b.4",
+      "title": "Axial covariance of the exact spatial block",
+      "kind": "Lemma",
+      "statement_sha256": "2a579f6456f6ce0a00de7d3ae26033410a9c8a41fcf8611ff80d6e78b4761125",
+      "status": "Free symbol proof; both polarizations tested",
+      "proof": "Take $z=a|p|$, $s=\\sin(z/2)$ and $h=\\cos(z/2)$. For momentum along axis 1, polarization 2, the two-link factor kills the four aliases with $r_2=1$. The other four have unit transverse projector entry, squared form factor four and dimensionless energies $2s,2h,2\\sqrt{1+s^2},2\\sqrt{1+h^2}$. The unitary Fourier volume ratio is $1/8$. Dividing the variance by its coarse Wilson value gives $R=(\\sin z/2)(1/s+1/h+1/\\sqrt{1+s^2}+1/\\sqrt{1+h^2})$. The singular term simplifies to $h$, and differentiating the smooth continuation gives $R(0)=1$, $R'(0)=1+1/(2\\sqrt2)$. Thus the earlier quadratic relative covariance estimate fails already on the axis. For a general direction write $ap=zu$, $|u|=1$, and use link-midpoint phases. In the zero alias, $2\\cos(ap_j/2)=2+O(z^2)$, both unit gradient directions equal $u+O(z^2)$, and the dimensionless coarse/fine frequency ratio is $2+O(z^2)$. The normalized lowest-alias operator is therefore $I+O(z^2)$ on the coarse transverse plane. For a nonzero alias with $k$ switched axes, the frequency at zero is $2\\sqrt{k}$. Its form factor vanishes on switched axes; on the unswitched ones the transverse projector is the identity. After the volume factor, its linear coefficient is the diagonal projection onto the unswitched axes divided by $2\\sqrt{k}$. Each coordinate occurs in two singleton contributions and one doubleton contribution. The sum is $(1+1/(2\\sqrt2))I$. High-alias symbols are smooth near zero and there are only seven of them. Thus both transverse eigenvalues equal $1+(1+1/(2\\sqrt2))z+O(z^2)$ uniformly in direction. Lean checks the scalar background identity and the exact axial derivative. The projector expansion is the analytic step. The numerical tables test both polarizations.",
+      "lean": [
+        "W2.W2b.axis_alias_reduction",
+        "W2.W2b.axialRatio_zero",
+        "W2.W2b.axis_ratio_slope",
+        "W2.W2b.alias_background_is_scalar"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2b.5",
+      "title": "Kinetic normalization and Gaussian transport",
+      "kind": "Proposition",
+      "statement_sha256": "1c779ae3368e2e19a80c5944e6fba73b2a44a3c9e402351f67e4472b5e3b7c37",
+      "status": "Free proof",
+      "proof": "With $c_k=g^2/(2a)$ and $c_{k+1}=g^2/(4a)$, summing two fine link gradients gives $r_k=2c_k/c_{k+1}=4$. In the normalized scalar channel a linear map from the blocked law to the reference rescales by the standard-deviation ratio $R^{-1/2}$. From W2b.4 it has value one and derivative $-(1+1/(2\\sqrt2))/2$ at the origin. Equal-time transport and retained-time spectral comparison therefore require separate calculations.",
+      "lean": [
+        "W2.W2b.normalization_scalar",
+        "W2.W2b.axis_transport_slope"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2b.6",
+      "title": "Eliminated gap, Gaussian score and Schur correction",
+      "kind": "Theorem",
+      "statement_sha256": "6788e857a51257169a7690bf9107d346dcb877b9a89f06bdf4c0acd63254b44e",
+      "status": "Finite and axial result; uniform claim open",
+      "proof": "In units $a=1$, let $m=\\sin z$, let $E_i$ be the four positive axial energies of W2b.4, and set $w_i=(1/E_i)/\\sum_j1/E_j$. The normalized retained coordinate has energy $A=\\sum_iw_i E_i=4/\\sum_i1/E_i$. In its orthogonal complement compress the diagonal energy to $D$ and denote the coupling by $B$. Taking the retained entry of the inverse of $H-mI$ gives the positive margin $J_*=(\\sum_i w_i/(E_i-m))^{-1}$. The bare correction is $A-m-J_*$. Put $h=m/E_0\\to1$, $T=\\sum_i E_0/E_i\\to1$ and $b=J_*/E_0$. Keeping just the first positive summand gives $0<b\\le(1-h)T$. Hence $(A-m-J_*)/A=1-(h+b)T/4\\to3/4$. This disproves a vanishing bare ratio in the axial free channel while preserving a positive signed margin at each finite box. The companion independently computes the full first-chaos compressions, score, eliminated gaps and mixed norms. Higher chaoses, the colour-singlet physical sector and the interacting uniform estimate remain separate.",
+      "lean": [
+        "W2.Framework.schur_all_retained",
+        "W2.W2b.axial_harmonic_mean",
+        "W2.W2b.resolvent_entry_identity",
+        "W2.W2b.resolvent_remainder",
+        "W2.W2b.raw_schur_limit"
+      ],
+      "inputs": [
+        "W2.Research.uniformEliminated",
+        "W2.Research.uniformSignedSchur"
+      ]
+    },
+    {
+      "id": "W2b.7",
+      "title": "Spatial tails of the precision and score kernels",
+      "kind": "Proposition",
+      "statement_sha256": "c4305d4c3abf16323e9da9be1bb64a53951815a80feafc8b1768fa3919897e4f",
+      "status": "Open uniform bounds; finite evidence",
+      "proof": "The precision symbol has the infrared degree of $|p|$. Its continuum homogeneous transform has degree $-4$ in three dimensions. To turn this into a lattice bound uniform in volume requires control of the projection, smooth remainder and periodization. If the norm at radius $n$ is at most $C/n^4$ and a shell has at most $Kn^2$ sites, its total is at most $KC/n^2$, which is summable. The measured precision exponents approach four. The score row sums grow across the four grids and the fitted score exponent does not establish a uniform summable majorant. A separate estimate for that kernel is missing.",
+      "lean": [
+        "W2.W2b.shell_bound"
+      ],
+      "inputs": [
+        "W2.Research.polynomialKernelBound"
+      ]
+    },
+    {
+      "id": "W2b.8",
+      "title": "A conditional obstruction to exponential envelopes",
+      "kind": "Corollary",
+      "statement_sha256": "aeb228ee961653b774088c343449c8a6fbacb61a9723aac59e9f8119e222e1ad",
+      "status": "Conditional proof",
+      "proof": "Assume a sequence of separations with kernel norm bounded below by $c n^{-4}$, $c>0$. For fixed $C,\\mu>0$, $Ce^{-\\mu n}<cn^{-4}$ along that sequence eventually. An exponential norm bound contradicts the lower bound. An upper polynomial estimate by itself cannot give this conclusion. A summable weighted framework may instead be obtained from W2b.7 if its uniform hypotheses can be established. The plain map passes the tested free linear gap comparison. Adequacy on the full physical space remains open.",
+      "lean": [
+        "W2.W2b.tail_obstruction",
+        "W2.W2b.shell_bound"
+      ],
+      "inputs": [
+        "W2.Research.polynomialKernelBound"
+      ]
+    },
+    {
+      "id": "W2b.9",
+      "title": "Lowest visible pole in inherited physical time",
+      "kind": "Proposition",
+      "statement_sha256": "be5230fce30e7522b1e051187332d7b7a4e9f8d59579536693ecc7b8bb1fa973",
+      "status": "Free proof",
+      "proof": "The two-time covariance is a finite sum $\\sum_r w_r e^{-E_r|\\tau|}$ with $w_r\\ge0$. At small nonzero momentum choose a transverse link component with nonzero retained form factor and residue $w_0>0$. Switching any fine alias replaces at least one $\\sin^2(ap_j/2)$ by a strictly larger $\\cos^2(ap_j/2)$. Multiplication by $e^{E_0|\\tau|}$ leaves a function tending to $w_0$. Taking $-|\\tau|^{-1}\\log(C(\\tau)/C(0))$ recovers $E_0$. The explicit sine bounds give phase speed $1+O((a|p|)^2)$. At $L=4$ the two lowest axial energies coincide. Their residues add. This argument uses inherited time as in Proposition 5.1 of the clock paper.",
+      "lean": [
+        "W2.W2b.alias_energy_separation",
+        "W2.W2b.isolated_pole_limit",
+        "W2.W2b.blocked_symbol_speed"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2b.10",
+      "title": "Signed finite-box sinc estimate",
+      "kind": "Lemma",
+      "statement_sha256": "06d19bbcb28f2a53abdfb717c1343beda944e2b1f5c6fba907dc2592401a8754",
+      "status": "Free proof",
+      "proof": "For the prescribed squared dispersion the rest mass and energy origin cancel. The positive root gives $c_L=\\sin t/t$, $t=\\pi/L$. For $0\\le t\\le\\pi/2$, the sine is between $t-t^3/6$ and $t-t^3/6+t^5/120$, as follows by successive integration of the elementary cosine bounds. Dividing by $t>0$ proves the signed estimate. It is the same released declaration as W2a-R.5, counted once in the inventory. The box table gives a numerical check on this exact result.",
+      "lean": [
+        "W2.Common.free_clock_sinc_bounds",
+        "W2.Research.gap_shift_invariant"
+      ],
+      "inputs": [
+        "W2.Common.finiteVolumeBound"
+      ]
+    },
+    {
+      "id": "W2b.11",
+      "title": "Angular dependence of the lattice dispersion",
+      "kind": "Proposition",
+      "statement_sha256": "7a2b3cae544a83c091504428a2bd738bd22c74ddcab403b86be8bcdcdb4661bd",
+      "status": "Free proof",
+      "proof": "Expand $2(1-\\cos y)=y^2-y^4/12+O(y^6)$, whose fourth derivative at zero is $-2$. Apply this in each component and divide by $a^2$. The result is $\\omega^2=|p|^2-a^2\\sum_jp_j^4/12+O(a^4|p|^6)$. Taylor's theorem bounds the componentwise remainder by $|ap_j|^6/(360a^2)$. Lean checks the fourth derivative and a nonasymptotic all-direction phase bound. The numerical pole table includes axial and diagonal momenta. This expansion concerns the free branch.",
+      "lean": [
+        "W2.W2b.blocked_symbol_speed",
+        "W2.W2b.lattice_fourth_derivative"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2c.1",
+      "title": "Gauge reduction of a blocking fibre",
+      "kind": "Proposition",
+      "statement_sha256": "49dd9d970d77c70b3546ae8f93d16c0db984f4b6e1790d232a633d21a53f3f6d",
+      "status": "Analytic proof; group identity checked",
+      "proof": "A fine gauge transformation equal to the identity at every retained vertex acts within each fibre. At a midpoint the two transformed links have product $(U_1h^{-1})(hU_2)=U_1U_2$. Invariance of the parent law implies invariance of its conditional distributions almost everywhere by uniqueness of disintegration. Haar averaging over the compact eliminated group gives invariant versions on those fibres. Invariant measurable functions factor through the quotient, and subtracting the conditional mean gives the centred subspace. A pointwise statement for every boundary datum requires a specified equivariant version of the conditional law. Lean checks the group cancellation. The disintegration argument is given here.",
+      "lean": [
+        "W2.W2c.midpoint_preserves_product"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2c.2",
+      "title": "Bulk and open-box fibre dimensions",
+      "kind": "Proposition",
+      "statement_sha256": "41e85a0ad2fbafaef1ab10715fd4956ac9b54c959d2cd94f09065142b45db87d",
+      "status": "Analytic proof; integer count checked",
+      "proof": "In a periodic block with $V$ coarse vertices there are $24V$ fine links and $3V$ coarse link-product constraints. The block map is a submersion because its coarse paths use disjoint pairs of links. The $7V$ eliminated vertices act freely with retained vertices fixed on a connected box. The quotient dimension is $(24-3-7)V\\dim G=14V\\dim G$. For an open cube with $n$ coarse links per axis, put $V(s)=(s+1)^3$ and $E(s)=3s(s+1)^2$. Subtract the coarse constraints and the eliminated gauge dimensions to get $[E(2n)-E(n)-V(2n)+V(n)]\\dim G$. Boundary corrections follow by expansion, giving $(14n^3+9n^2)\\dim G$.",
+      "lean": [
+        "W2.W2c.fibre_dimension_count",
+        "W2.W2c.open_dimension_count"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2c.3",
+      "title": "Uniform conditional Poincaré inequality on a quotient",
+      "kind": "Theorem",
+      "statement_sha256": "69fafc91a0de09ef2389e0b989101e410d56b44bca4878b8df17869dd0114ada",
+      "status": "Open conjecture",
+      "proof": "One needs $c>0$ chosen before the box, scale, cutoff and admissible coarse field, with conditional variance at most $(g_k^2/c)$ times the tangential Dirichlet integral. Compactness at fixed dimension gives no such uniform constant. Gauge reduction removes the exact symmetry directions, but it does not yield curvature or comparison estimates for every small-field conditional law. The predicate records the quantifier order. No proof for the interacting Wilson law is available here.",
+      "lean": [],
+      "inputs": [
+        "W2.Research.uniformFibrePoincare"
+      ]
+    },
+    {
+      "id": "W2c.4",
+      "title": "Eliminated gap from a fibre inequality",
+      "kind": "Corollary",
+      "statement_sha256": "d44b99a8a97198bef3c8f72f9894bfa80482842c9e836de33b63cc6f9e6066fd",
+      "status": "Conditional proof",
+      "proof": "Apply W2c.3 on each fibre to a conditionally centred function and integrate over the coarse field. The tangential gradient norm is controlled by the fine gradient. Multiplication by $c_k=g_k^2/(2a_k)$ gives $D_k(f)\\ge c\\operatorname{Var}(f)/(2a_k)$. The Rayleigh quotient has the claimed lower bound with $\\kappa=c/2$. Lean checks this last implication with the integrated inequalities as premises.",
+      "lean": [
+        "W2.W2c.eliminated_gap_of_fibre_poincare"
+      ],
+      "inputs": [
+        "W2.Research.uniformFibrePoincare"
+      ]
+    },
+    {
+      "id": "W2c.5",
+      "title": "Separation of retained and eliminated energies",
+      "kind": "Corollary",
+      "statement_sha256": "51029c22d3f34b9d9bc422f01028717ad61ca80da39f2e3d00367f9c36392a2c",
+      "status": "Conditional proof",
+      "proof": "For $m,a,\\kappa>0$ and $\\Lambda\\ge\\kappa/a$, inversion yields $m/\\Lambda\\le am/\\kappa$. Thus $s=1-m/\\Lambda\\ge1-am/\\kappa$. Inserting W2d.5 makes the error decay exponentially in the inverse squared coupling along the specified weak trajectory. A numerical lower bound at $x_*=1/6$ still needs $a_Km$ and the interacting $\\kappa$. A first-chaos measured gap cannot supply that constant.",
+      "lean": [
+        "W2.W2c.cor_5_separation",
+        "W2.W2d.lattice_artifact_decay"
+      ],
+      "inputs": [
+        "W2.Research.uniformEliminated"
+      ]
+    },
+    {
+      "id": "W2c.6",
+      "title": "A fibre measure with collapsing Rayleigh quotient",
+      "kind": "Proposition",
+      "statement_sha256": "708f152987846df0c823f4bcfdb6b17a6fda5bcacd99997e3358b488932a2651",
+      "status": "Analytic proof; Rayleigh bound checked",
+      "proof": "On $[-1,1]$ use weight $e^{sx^2}$, $s\\ge0$. Take the odd function $f(x)=\\max(-1,\\min(1,4x))$. Its weighted mean is zero, and its derivative is supported on $|x|<1/4$. The unnormalized energy is at most $8e^{s/16}$. On $|x|\\ge1/2$ its squared norm is at least $e^{s/4}$ after integration. The common partition function cancels. Its Rayleigh quotient is at most $8e^{-3s/16}$ and tends to zero. A volume-uniform positive curvature hypothesis for the negative log density would exclude this example; that hypothesis for the actual small-field measure is open.",
+      "lean": [
+        "W2.W2c.negative_control"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2d.1",
+      "title": "Derivative bounds for coarse-field transport",
+      "kind": "Lemma",
+      "statement_sha256": "bfa19b8a252f4b1d68e7c8a6b30e333d3c24cb5f91433e0dd5bfeb9a5620420f",
+      "status": "Open conjecture",
+      "proof": "On the axial free channel the derivative of the multiplier with respect to momentum has nonzero first coefficient by W2b.5. This fixes a normalization and rules out a blanket quadratic symbol estimate at that point. A field-space derivative bound in a volume-uniform, polynomially weighted local norm needs an explicit transport, its regularity and its derivative estimates for the interacting measures. The momentum derivative in Lean does not supply these field-space estimates.",
+      "lean": [
+        "W2.W2b.axis_transport_slope"
+      ],
+      "inputs": [
+        "W2.Research.uniformTransport"
+      ]
+    },
+    {
+      "id": "W2d.2",
+      "title": "Uniform small-field retained-form defect",
+      "kind": "Theorem",
+      "statement_sha256": "9f697d6c220670b8768080fe7dca9a80fea78df480f949b8054f17d867f2ba01",
+      "status": "Open conjecture with a Gaussian obstruction",
+      "proof": "For an axial linear observable of unit variance at the reference gap, $R_{\\mathrm{excess}}=0$. Since $r=4$ and $A=4m/R(z)$, the normalized defect is $A/(4m)-1=R(z)^{-1}-1=-(1+1/(2\\sqrt2))z+O(z^2)$. At order $g^0$ this violates the proposed lower bound with only $C_a(am)^2$ for all large boxes, if the observable class includes this channel. The full interacting statement needs a sector argument or a changed comparison retaining sufficient excess. A counterexample on a single Maxwell component alone is insufficient to draw the same conclusion for all gauge-invariant singlet observables.",
+      "lean": [
+        "W2.W2b.axial_harmonic_mean",
+        "W2.W2b.normalized_defect_slope"
+      ],
+      "inputs": [
+        "W2.Research.uniformDefect"
+      ]
+    },
+    {
+      "id": "W2d.3",
+      "title": "Retained gap from a defect bound",
+      "kind": "Corollary",
+      "statement_sha256": "b4831a6e9e496cd6fd40ed975918e3e2531e874c69681e6068fcd6a34cc00914",
+      "status": "Conditional proof",
+      "proof": "Write the reference energy as $mV+R$ with $R\\ge0$, and $D=A/r-(mV+R)$. If $D\\ge-R/2-bmV$, then $A/r\\ge(1-b)mV+R/2$. Assuming $0\\le b\\le1$, $mV\\ge0$ and $r\\ge1$, multiplication by $r$ preserves the asserted lower bound. Insert $b=C_Sg^4+C_a(am)^2$ in its stated range. This implication can be applied only after the actual retained comparison has been established.",
+      "lean": [
+        "W2.W2d.retained_of_defect"
+      ],
+      "inputs": [
+        "W2.Research.uniformDefect"
+      ]
+    },
+    {
+      "id": "W2d.4",
+      "title": "Cancellation of the order-$g^2$ defect coefficient",
+      "kind": "Proposition",
+      "statement_sha256": "5c5eeecdbf55cf9126f7855a6d113fa370dfbae20f08a92a3cc6bb77b44b602f",
+      "status": "Conditional coefficient identity; completeness open",
+      "proof": "If the coefficient equals $u\\bar\\kappa+v\\kappa_{\\mathrm{phys}}$, it vanishes when both mismatches vanish. Lean proves that algebraic implication. It remains to derive this representation for the full interacting form, uniformly over observables, and to bound the remainder. The nonzero Gaussian lattice term in W2d.2 is independent of this order-in-coupling argument.",
+      "lean": [
+        "W2.W2d.no_quadratic_term"
+      ],
+      "inputs": [
+        "W2.Research.completeMismatch"
+      ]
+    },
+    {
+      "id": "W2d.5",
+      "title": "Exponential suppression along a weak run",
+      "kind": "Proposition",
+      "statement_sha256": "b756dbd4ea17fac0965a2f3839c19fcd24ffe05a2dd93106c3f28ba592e3c24d",
+      "status": "Conditional proof",
+      "proof": "Write $n=K-k$, $d=g_k^{-2}-g_K^{-2}$. The upper decrement gives $d\\le n A_+$ with $A_+=6b_0\\log2$ under the stated smallness bound. Since $a_k=a_K2^{-n}$, exponentiating $-n\\log2\\le-d/(6b_0)$ gives the required bound. Squaring doubles the exponent. As $g\\to0$ at fixed endpoint, a negative constant times $g^{-2}$ dominates $-c g^{-\\delta}$ for $0<\\delta<2$. The Lean inequality explicitly takes the upper decrement as input, separate from the lower decrement for product transfer.",
+      "lean": [
+        "W2.W2d.lattice_artifact_decay"
+      ],
+      "inputs": [
+        "W2.Common.RunningBoundHyp"
+      ]
+    },
+    {
+      "id": "W2d.6",
+      "title": "Geometric sum of lattice artifacts",
+      "kind": "Corollary",
+      "statement_sha256": "937c0dea838f3bc0f3507ea730675fe8c379469f801d8ae836708f5581ed64f1",
+      "status": "Proof",
+      "proof": "If the final weak spacing is bounded by $a_w$ and masses by $\\bar m$, the squared contributions backward from the last step are bounded by $(a_w\\bar m)^2\\,4^{-j}$. Summing the finite geometric series gives a bound of $4(a_w\\bar m)^2/3$. The checked proof includes the empty run and requires positivity and doubling at the actual steps.",
+      "lean": [
+        "W2.W2d.artifact_geometric_sum"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2d.7",
+      "title": "Spectral bridge from retained forms to a moving pole",
+      "kind": "Theorem",
+      "statement_sha256": "7c75937cc293841814133e1b18b830f5cb0875c21dd1162b3af991afb4b75d7c",
+      "status": "Open conjecture",
+      "proof": "A form lower bound does not determine the slope of a moving-minus-rest squared gap. Even the family $H_x=(1+x)H_0$ has the same vacuum at each $x$ and allows positive first-order change in the speed. The checked identity gives the squared change $2x+x^2$. A proof needs the same isolated physical branch, overlap under blocking, and a two-sided estimate in inherited time to the claimed order. For a positive reference speed, factoring the difference of squares bounds the speed error by the two-sided squared-speed error divided by the reference speed. Lean checks this sufficient bridge.",
+      "lean": [
+        "W2.W2d.upward_shift_witness",
+        "W2.W2d.speed_from_squared_gap"
+      ],
+      "inputs": [
+        "W2.Research.dispersionAtOneLoop"
+      ]
+    },
+    {
+      "id": "W2e.1",
+      "title": "Leading scale of the conditional score",
+      "kind": "Proposition",
+      "statement_sha256": "ea1bcf2018d658f0cdeb492a2ba3bbc77dd67b3215417b4ff3fb71e760785b2f",
+      "status": "Gaussian computation; interacting estimate open",
+      "proof": "In fine Gaussian coordinates let $T$ be the two-link map restricted to the transverse quotient, $TT^*=2I$, and $Q=2\\Omega$ the fine precision. Differentiating the conditional Gaussian log density gives residual precision covariance $TQT^*/4-C_\\nu^{-1}$. Its largest eigenvalue is positive on the sampled boxes. In original group coordinates a derivative contributes $1/g$, so the free score covariance contributes at order $g^{-2}$. The four measured values of $g^2J_k$ are given in the table. Establishing uniform interacting bounds on the expansion requires control of its remainder.",
+      "lean": [
+        "W2.Framework.uniform_score_lift"
+      ],
+      "inputs": [
+        "W2.Research.scoreBounds"
+      ]
+    },
+    {
+      "id": "W2e.2",
+      "title": "Uniform score route to a small loss",
+      "kind": "Theorem",
+      "statement_sha256": "f9a3c1b88f966a13b5d1ec656e6c71a8f9b050e08c3fabb0759bc4efd35874a8",
+      "status": "Conditional route; cancellation premise fails in tested model",
+      "proof": "When the covariance bound and $\\Lambda_\\perp>m$ hold, the resolvent norm is bounded by $(\\Lambda_\\perp-m)^{-1}$. Substituting the score bound gives a constant times the retained energy. The Lean implication checks the scalar lift. For the plain product block the free transverse Gaussian has a nonzero score contribution, so the cancellation premise of the proposed quartic route already fails in that channel. A row-sum or a norm estimate for a different map, sector or subtracted score requires independent evidence.",
+      "lean": [
+        "W2.Framework.uniform_score_lift"
+      ],
+      "inputs": [
+        "W2.Research.uniformScoreRoute",
+        "W2.Research.scoreBounds"
+      ]
+    },
+    {
+      "id": "W2e.3",
+      "title": "Direct Schur comparison with retained excess",
+      "kind": "Theorem",
+      "statement_sha256": "246ff495701899b9ecafe890e0c03d7899fa715d796b6253fa237581a1b5c27b",
+      "status": "Axial counterexample; signed conjecture open",
+      "proof": "At trial energy $m$ the bare correction divided by retained energy tends to $3/4$ on the first axial Gaussian mode by W2b.6. A uniform $C(am)^2$ bare estimate on a class containing this mode is impossible in the free limit. Nevertheless $A-m-B^*(D-mI)^{-1}B>0$ at each tested axial momentum. Completion of squares gives the exact equivalence between positivity of the block form and its signed Schur complement. For the interacting model the remaining target is a uniform lower bound on $A$ minus the correction at the chosen trial gap. This must use the correct observable class and the positive eliminated denominators.",
+      "lean": [
+        "W2.Framework.schur_criterion",
+        "W2.Framework.schur_all_retained",
+        "W2.W2b.raw_schur_limit"
+      ],
+      "inputs": [
+        "W2.Research.uniformMixedBound",
+        "W2.Research.uniformSignedSchur"
+      ]
+    },
+    {
+      "id": "W2e.4",
+      "title": "Loss bound under a Schur comparison",
+      "kind": "Corollary",
+      "statement_sha256": "c3ece1569fc5ef40048ae1ce788bf6cdbbfa3df54917ee527c782cdcafb97db4",
+      "status": "Conditional proof",
+      "proof": "Given retained and mixed allowances $\\alpha,\\epsilon\\ge0$ yielding a comparison at $(1-\\alpha)(1-\\epsilon)m$, expand the relative loss as $\\alpha+\\epsilon-\\alpha\\epsilon\\le\\alpha+\\epsilon$. A bound made directly on the signed form instead gives its own trial gap by the Schur criterion. The nonvanishing raw correction of W2e.3 cannot be inserted as a vanishing allowance.",
+      "lean": [
+        "W2.W2e.loss_of_mixed_bound",
+        "W2.Framework.schur_all_retained"
+      ],
+      "inputs": [
+        "W2.Research.uniformSignedSchur"
+      ]
+    },
+    {
+      "id": "W2e.5",
+      "title": "Clock invariance of the resolvent ratio",
+      "kind": "Lemma",
+      "statement_sha256": "9f4de705855b2a26a21ae27f9a1eb366bf7b8c2b8cc6cae6ca2ba14c3619e75a",
+      "status": "Proof",
+      "proof": "Let $\\xi>0$. Diagonalize the eliminated block at energies $d_i$ with $d_i>\\lambda$. Under time scaling its resolvent denominators acquire a factor $\\xi$, the squared mixed coupling gains $\\xi^2$ and the retained energy gains $\\xi$. Substitution cancels all three powers, term by term. Lean verifies the finite-eigenbasis formula with arbitrary coefficients. In a self-adjoint operator formulation the same identity follows from the resolvent scaling law on its resolvent set.",
+      "lean": [
+        "W2.W2e.resolvent_ratio_clock_invariant"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "W2f.1",
+      "title": "Conditional one-step small-field gap",
+      "kind": "Theorem",
+      "statement_sha256": "55a67f9f8cc9e43c4ee96a5582d0b8a443271f42684eef8f9c3eca11bdb1a141",
+      "status": "Conditional proof",
+      "proof": "In Scheme A the exactly matched clock contributes no per-step mismatch. Given retained and mixed allowances, add their $g^4$ and $(am)^2$ coefficients to get $C_4=C_S+C_M$ and $C_a''=C_a+C'_a$. Alternatively, diagonalize the positive eliminated block and use a signed lower estimate directly. Completing the square in each eliminated coordinate gives the target quadratic-form lower bound at the resulting trial gap. The Lean master theorem exposes the signed estimate as its premise. Its validity for the interacting small-field sector is conditional on the estimates identified above.",
+      "lean": [
+        "W2.W2f.small_field_loss",
+        "W2.W2f.master_small_field",
+        "W2.Framework.schur_all_retained"
+      ],
+      "inputs": [
+        "W2.Research.uniformEliminated",
+        "W2.Research.uniformDefect",
+        "W2.Research.uniformSignedSchur"
+      ]
+    },
+    {
+      "id": "W2f.2",
+      "title": "Orientation of the endpoint clock",
+      "kind": "Proposition",
+      "statement_sha256": "b19637d2dd6a40d034c3fdcf2277a69300c812180e61458929e77fdd9ec4794f",
+      "status": "Conditional proof",
+      "proof": "Each inherited-time step contributes $c(x_k)/c(x_{k+1})$ in the convention of W2a-R.2, hence $Z_{\\mathrm{clock}}=c(x_0)/c(x_J)$. With $c(x_0)\\to1$ the limit is $1/c(x_J)$. When a certificate is expressed in a clock-scaled Hamiltonian one converts its gap back by dividing by the incoming clock. This explicit division prevents counting a reciprocal twice. Bounds on step ratios yield the exponential estimate by $1+y\\le e^y$.",
+      "lean": [
+        "W2.W2f.clock_endpoint_factor",
+        "W2.W2aR.kinetic_ratio_clock"
+      ],
+      "inputs": [
+        "W2.Common.ClockRegularityHyp",
+        "W2.Common.DispersionHyp"
+      ]
+    },
+    {
+      "id": "W2f.3",
+      "title": "Mismatch allowance for truncated time calibration",
+      "kind": "Corollary",
+      "statement_sha256": "54f2521e33064a27205ca5ff92639a59d1d49abaa8af2d809ce1f82282b7f567",
+      "status": "Conditional proof",
+      "proof": "Set $\\xi_B(x)=1-c_1x$. Its adjacent ratios give the endpoint factor $\\xi_B(x_J)/\\xi_B(x_0)$ exactly. The pointwise Scheme B estimate from W2a-R.1 bounds the mismatch by $M_{\\mathrm{match}}^B x_k^2$. Adding it to the retained and mixed step losses changes $C_4$ to $C_S+C_M+M_{\\mathrm{match}}^B$. The checked inequalities specify the positivity and smallness assumptions needed for these ratios.",
+      "lean": [
+        "W2.W2f.small_field_loss_schemeB",
+        "W2.W2aR.step_error_schemeB"
+      ],
+      "inputs": [
+        "W2.Common.ClockRegularityHyp"
+      ]
+    },
+    {
+      "id": "W2f.4",
+      "title": "Positive product through the weak interval",
+      "kind": "Theorem",
+      "statement_sha256": "3b5f87906685a47675bf3746e745711a5af31b5f4b5fac5cbf2d209ca1ff5346",
+      "status": "Conditional proof",
+      "proof": "Maximizing $u^{4/\\delta}e^{-u}$ gives $e^{-c/g^\\delta}\\le D_\\delta g^4$ with $D_\\delta=(4/(ec\\delta))^{4/\\delta}$. The inverse-coupling decrement and integral comparison bound $\\sum x_k^2$ by $x_*^2+x_*/A_-$. Add the geometric artifact sum of W2d.6 to get the stated $S$. For $0\\le\\eta_k\\le r<1$, integration of $(1-t)^{-1}$ gives $\\log(1-\\eta_k)\\ge-\\eta_k/(1-r)$. Multiply the factors to obtain $\\prod(1-\\eta_k)\\ge e^{-S/(1-r)}$. The physical W3 large-field estimate and the uniform step bound are external premises.",
+      "lean": [
+        "W2.W2f.exp_le_Ddelta",
+        "W2.W2f.weak_product_floor",
+        "W2.W2d.artifact_geometric_sum"
+      ],
+      "inputs": [
+        "W2.Common.RunningBoundHyp"
+      ]
+    },
+    {
+      "id": "W2f.5",
+      "title": "Conditional transfer to the fine-scale gap",
+      "kind": "Theorem",
+      "statement_sha256": "b2ce7e5d5d2309d5621a9228ae3ddaef97a4c54b10b3aa001bf34988e8545487",
+      "status": "Conditional proof",
+      "proof": "Sum the assumed intermediate inverse-coupling decrement to bound the number $n$ of intermediate steps by $M=\\lceil(g_*^{-2}-g_1^{-2})/A_{\\mathrm{int}}\\rceil$. For $0<b\\le1$ the intermediate product is at least $b^n\\ge b^M$. Combine this with W2f.4 and the positive calibrated infrared endpoint to obtain the displayed fine-gap inequality. Two positive functions can agree throughout the weak interval and differ at a later endpoint, so specifying the strong clock or an independently controlled bridge is essential. The Lean proof checks the product comparison and this endpoint nonuniqueness; the W3/W4 physical inputs remain open.",
+      "lean": [
+        "W2.W2f.fine_scale_gap",
+        "W2.W2aR.intermediate_step_count",
+        "W2.W2f.endpoint_not_determined",
+        "W2.W2f.weak_product_floor"
+      ],
+      "inputs": [
+        "W2.Common.RunningBoundHyp"
+      ]
+    }
+  ]
+}

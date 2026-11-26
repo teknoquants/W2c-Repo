@@ -1,0 +1,7 @@
+"4.36.0"
+'W2.W2cR.fixed_volume_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.marginal_schur_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.covariance_subtraction_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.BlockMixingHyp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'W2.W2cR.uniform_of_block_mixing' depends on axioms: [propext, Classical.choice, Quot.sound]
+"W2c-R-rebuilt c6d3e39261d139028a6fb9ecd4054c78feb7aff621e846f9e20c1064b62113cd"
